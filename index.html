@@ -39,7 +39,7 @@
   /* ② 라인업 카드 */
   .lineup-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:18px 0 8px;}
   .lu-card{background:var(--navy-card);border:1px solid rgba(61,139,255,.3);border-radius:14px;padding:10px 8px 12px;text-align:center;}
-  .lu-img{width:100%;height:78px;object-fit:cover;border-radius:9px;display:block;}
+  .lu-img{width:100%;height:78px;object-fit:contain;display:block;filter:drop-shadow(0 4px 10px rgba(61,139,255,.25));}
   .lu-name{font-size:12.5px;font-weight:800;margin:8px 0 2px;}
   .lu-new{display:inline-block;font-size:9px;font-weight:800;color:#0a1330;background:linear-gradient(90deg,#7db4ff,#5ac8ff);padding:2px 7px;border-radius:999px;margin-bottom:6px;}
   .lu-btn{display:block;font-size:11.5px;font-weight:800;color:#fff;background:linear-gradient(90deg,#2f6bff,#3d8bff);border-radius:9px;padding:8px 0;text-decoration:none;margin-top:8px;}
@@ -156,17 +156,17 @@
     <p class="sub">라인업부터 확인하고, 원하는 모델의 소식을 가장 먼저 받아보세요.</p>
     <div class="lineup-grid">
       <div class="lu-card">
-        <img class="lu-img" src="갤럭시 플립 8_1.jpg" alt="갤럭시 플립8 예상 렌더">
+        <img class="lu-img" data-cut="갤럭시 플립 8_2.jpg" data-crop="0,0.02,1,0.96" alt="갤럭시 플립8 예상 렌더">
         <div class="lu-name">갤럭시 플립8</div>
         <a class="lu-btn" href="https://pf.kakao.com/_hZPcG/friend" target="_blank">알림받기</a>
       </div>
       <div class="lu-card">
-        <img class="lu-img" src="갤럭시 폴드 8_와이드.jpg" alt="갤럭시 폴드8 예상 렌더">
+        <img class="lu-img" data-cut="갤럭시 폴드 8_2.webp" data-crop="0.14,0.05,0.36,0.92" alt="갤럭시 폴드8 예상 렌더">
         <div class="lu-name">갤럭시 폴드8</div>
         <a class="lu-btn" href="https://pf.kakao.com/_hZPcG/friend" target="_blank">알림받기</a>
       </div>
       <div class="lu-card">
-        <img class="lu-img" src="갤럭시 폴드 8_1.webp" alt="갤럭시 폴드8 울트라 예상 렌더">
+        <img class="lu-img" data-cut="갤럭시 폴드 8_2.webp" data-crop="0.30,0.12,0.70,0.88" alt="갤럭시 폴드8 울트라 예상 렌더">
         <div class="lu-name">폴드8 울트라</div>
         <a class="lu-btn" href="https://pf.kakao.com/_hZPcG/friend" target="_blank">알림받기</a>
       </div>
@@ -385,6 +385,45 @@
   }
   buildCal('cal-jul',2026,6,[22,31],{22:'언팩',28:'사전예약'});
   buildCal('cal-aug',2026,7,[1,7],{4:'사전개통',7:'정식출시'});
+
+  // 렌더 이미지 배경 제거 (클라이언트 누끼)
+  (function(){
+    var T=52; // 배경 색 허용 오차
+    document.querySelectorAll('img[data-cut]').forEach(function(el){
+      var src=el.getAttribute('data-cut');
+      var crop=(el.getAttribute('data-crop')||'0,0,1,1').split(',').map(Number);
+      var img=new Image();
+      img.onload=function(){
+        try{
+          var sx=Math.round(img.width*crop[0]), sy=Math.round(img.height*crop[1]);
+          var sw=Math.round(img.width*crop[2]), sh=Math.round(img.height*crop[3]);
+          var maxH=240, sc=Math.min(1,maxH/sh);
+          var w=Math.max(1,Math.round(sw*sc)), h=Math.max(1,Math.round(sh*sc));
+          var c=document.createElement('canvas'); c.width=w; c.height=h;
+          var ctx=c.getContext('2d');
+          ctx.drawImage(img,sx,sy,sw,sh,0,0,w,h);
+          var d=ctx.getImageData(0,0,w,h), p=d.data;
+          // 배경색: 네 모서리 평균
+          var cs=[0,(w-1)*4,(h-1)*w*4,((h-1)*w+w-1)*4];
+          var br=0,bg=0,bb=0;
+          cs.forEach(function(i){br+=p[i];bg+=p[i+1];bb+=p[i+2];});
+          br/=4;bg/=4;bb/=4;
+          var vis=new Uint8Array(w*h), q=[];
+          function push(x,y){var i=y*w+x; if(x<0||y<0||x>=w||y>=h||vis[i])return; var j=i*4;
+            var dr=p[j]-br,dg=p[j+1]-bg,db=p[j+2]-bb;
+            if(Math.sqrt(dr*dr+dg*dg+db*db)<T){vis[i]=1;q.push(x,y);}}
+          for(var x=0;x<w;x++){push(x,0);push(x,h-1);}
+          for(var y=0;y<h;y++){push(0,y);push(w-1,y);}
+          while(q.length){var yy=q.pop(),xx=q.pop();push(xx+1,yy);push(xx-1,yy);push(xx,yy+1);push(xx,yy-1);}
+          for(var i=0;i<w*h;i++){ if(vis[i]) p[i*4+3]=0; }
+          ctx.putImageData(d,0,0);
+          el.src=c.toDataURL('image/png');
+        }catch(e){ el.src=src; }
+      };
+      img.onerror=function(){ el.src=src; };
+      img.src=src;
+    });
+  })();
 </script>
 </body>
 </html>
