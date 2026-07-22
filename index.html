@@ -204,8 +204,9 @@ fbq('track', 'PageView');
   .footer-business .business-name{margin-bottom:5px;color:#1f2937;font-size:12px;font-weight:900;}
   .footer-business .business-line{display:block;}
   .footer-business a{color:#174f9e;font-weight:700;text-decoration:none;}
-  .footer-cert-link{display:inline-flex;align-items:center;justify-content:center;gap:7px;margin:4px 0 16px;padding:11px 16px;border:1px solid #c7d9f2;border-radius:10px;background:#f5f8ff;color:#174f9e;font-size:12px;font-weight:800;text-decoration:none;line-height:1.4;}
-  .footer-cert-link:hover{background:#eaf2ff;border-color:#83bfff;}
+  .footer-cert-link{display:block;width:156px;margin:4px auto 18px;text-decoration:none;transition:transform .2s,opacity .2s;}
+  .footer-cert-link img{display:block;width:100%;height:auto;}
+  .footer-cert-link:hover{transform:translateY(-2px);opacity:.92;}
   .foot-info{font-size:11px;color:#5a6688;line-height:1.7;}
 
   /* 스티키 카운트다운 바 */
@@ -646,7 +647,7 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
       <span class="business-line">경기도 안양시 동안구 시민대로 398, 인덕원역 더리브 디하우트 공장동 523호(평촌동)</span>
     </div>
     <a class="footer-cert-link" href="https://ictmarket.or.kr:8443/precon/pop_CertIcon.do?PRECON_REQ_ID=PRE0000194479&amp;YN=1" target="_blank" rel="noopener noreferrer" aria-label="이동통신서비스 사전승낙 판매점 인증 확인">
-      ✓ 이동통신서비스 사전승낙 판매점 확인
+      <img src="assets/preapproval-store-badge.png" alt="주식회사 휴대폰성지폰스팟 온라인판매점 인증 확인">
     </a>
     <p class="foot-info">© PHONESPOT. All rights reserved.</p>
   </footer>
