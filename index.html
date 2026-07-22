@@ -725,14 +725,14 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
 
         window.dataLayer=window.dataLayer||[];
         window.dataLayer.push({
-          event:'notification_apply_click',
+          event:'kakao_click',
           cta_location:location,
           cta_text:(link.textContent||link.getAttribute('aria-label')||'').trim(),
           destination:'kakao_channel'
         });
 
         if(typeof window.fbq==='function'){
-          window.fbq('track','Lead',{
+          window.fbq('trackCustom','kakao_click',{
             content_name:'Fold8 preorder notification',
             content_category:location
           });
