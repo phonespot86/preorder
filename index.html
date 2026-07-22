@@ -713,30 +713,50 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
     });
   })();
 
-  // 알림 신청 CTA 클릭 추적: 새 탭 이동과 동시에 GTM·Meta에 전송
+  // 링크 및 일반 클릭 추적: GTM·Meta에 동일한 이벤트명으로 전송
   (function(){
-    var selector='a.hero-image-link[href*="pf.kakao.com"], a.kakao-btn[href*="pf.kakao.com"], a.sb-btn[href*="pf.kakao.com"]';
-    document.querySelectorAll(selector).forEach(function(link){
+    function sendEvent(name,properties){
+      window.dataLayer=window.dataLayer||[];
+      window.dataLayer.push(Object.assign({event:name},properties));
+      if(typeof window.fbq==='function'){
+        window.fbq('trackCustom',name,properties);
+      }
+    }
+
+    document.querySelectorAll('a[href*="pf.kakao.com"]').forEach(function(link){
       link.addEventListener('click',function(){
         var location='section';
         if(link.classList.contains('hero-image-link')) location='hero';
         else if(link.classList.contains('spec-cta')) location='model_spec';
         else if(link.classList.contains('sb-btn')) location='sticky_bar';
+        else if(link.closest('footer')) location='footer';
 
-        window.dataLayer=window.dataLayer||[];
-        window.dataLayer.push({
-          event:'kakao_click',
+        sendEvent('kakao_click',{
           cta_location:location,
           cta_text:(link.textContent||link.getAttribute('aria-label')||'').trim(),
           destination:'kakao_channel'
         });
+      });
+    });
 
-        if(typeof window.fbq==='function'){
-          window.fbq('trackCustom','kakao_click',{
-            content_name:'Fold8 preorder notification',
-            content_category:location
-          });
-        }
+    document.querySelectorAll('a[href*="instagram.com/phonespot.kr"]').forEach(function(link){
+      link.addEventListener('click',function(){
+        sendEvent('insta_click',{
+          cta_location:'footer',
+          cta_text:(link.textContent||link.getAttribute('aria-label')||'').trim(),
+          destination:'instagram'
+        });
+      });
+    });
+
+    document.addEventListener('click',function(event){
+      var element=event.target.nodeType===1?event.target:event.target.parentElement;
+      if(!element||element.closest('a')) return;
+      sendEvent('click',{
+        element_tag:element.tagName.toLowerCase(),
+        element_id:element.id||'',
+        element_class:(element.className&&typeof element.className==='string')?element.className.slice(0,100):'',
+        element_text:(element.textContent||element.getAttribute('aria-label')||'').trim().replace(/\s+/g,' ').slice(0,100)
       });
     });
   })();
