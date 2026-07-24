@@ -123,8 +123,10 @@ fbq('track', 'PageView');
   .benefit-visual{width:100%;height:auto;aspect-ratio:4/3;overflow:hidden;border-radius:13px;background:linear-gradient(135deg,rgba(47,107,255,.34),rgba(90,200,255,.09));display:flex;align-items:center;justify-content:center;font-size:48px;margin-bottom:15px;box-shadow:inset 0 1px 0 rgba(255,255,255,.04);}
   .benefit-visual img{width:100%;height:100%;display:block;object-fit:cover;}
   .benefit-official-list{list-style:none;margin:16px 0 0;padding:0;display:grid;gap:12px;}
-  .benefit-official-list li{padding:14px;border-radius:13px;background:#fff;border:1px solid #d8e4f5;color:#4a5870;font-size:14px;line-height:1.55;}
+  .benefit-official-list li{position:relative;min-height:112px;padding:14px 92px 14px 14px;border-radius:13px;background:#fff;border:1px solid #d8e4f5;color:#4a5870;font-size:14px;line-height:1.55;display:flex;flex-direction:column;justify-content:center;overflow:hidden;}
   .benefit-official-list b{display:block;margin-bottom:3px;color:#1769d5;font-size:16px;}
+  .benefit-mini-graphic{position:absolute;right:10px;top:50%;width:72px;height:72px;transform:translateY(-50%);border-radius:22px;background:linear-gradient(145deg,#f7faff,#edf4ff);display:flex;align-items:center;justify-content:center;box-shadow:inset 0 0 0 1px rgba(23,105,213,.07);}
+  .benefit-mini-graphic img{width:82px;height:82px;object-fit:contain;display:block;}
   .benefit-card .cat-label{margin:0 0 10px;font-size:18px;}
   .benefit-card .cat-label .n{width:25px;height:25px;background:#fff;color:#08122d;font-size:12px;box-shadow:none;}
   .benefit-card .d{font-size:16px;line-height:1.65;text-align:left;}
@@ -550,10 +552,10 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
     <div class="soon-card benefit-card">
       <div class="cat-label"><span class="n">1</span>삼성 제조사 혜택</div>
       <ul class="benefit-official-list">
-        <li><b>더블 스토리지</b>256GB 모델 사전 구매 시 512GB 모델로 무상 업그레이드</li>
-        <li><b>Google AI Pro</b>월 29,000원 상당의 Google AI Pro 6개월 무료 구독</li>
-        <li><b>제휴 콘텐츠 및 액세서리</b>정품 액세서리 할인 쿠폰, 윌라·유튜브 프리미엄 등 구독 혜택</li>
-        <li><b>New 갤럭시 AI 구독클럽</b>폴더블폰 구매 고객 대상 전용 서비스 운영</li>
+        <li><b>더블 스토리지</b>256GB 모델 사전 구매 시<br>512GB 모델로 무상 업그레이드<div class="benefit-mini-graphic" aria-hidden="true"><img src="assets/benefit-double-storage.webp" alt="" loading="lazy" decoding="async"></div></li>
+        <li><b>Google AI Pro</b>월 29,000원 상당<br>Google AI Pro 6개월 무료 구독<div class="benefit-mini-graphic" aria-hidden="true"><img src="assets/benefit-google-ai.webp" alt="" loading="lazy" decoding="async"></div></li>
+        <li><b>제휴 콘텐츠 및 액세서리</b>정품 액세서리 할인 쿠폰,<br>윌라·유튜브 프리미엄 등 구독 혜택<div class="benefit-mini-graphic" aria-hidden="true"><img src="assets/benefit-content-accessories.webp" alt="" loading="lazy" decoding="async"></div></li>
+        <li><b>New 갤럭시 AI 구독클럽</b>폴더블폰 구매 고객 대상<br>전용 서비스 운영<div class="benefit-mini-graphic" aria-hidden="true"><img src="assets/benefit-ai-club.webp" alt="" loading="lazy" decoding="async"></div></li>
       </ul>
     </div>
     <div class="soon-card benefit-card">
