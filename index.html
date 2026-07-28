@@ -449,6 +449,50 @@ fbq('track', 'PageView');
   .carrier-policy-item h3{font-size:16px;margin-bottom:7px;color:#1269d3;}
   .carrier-policy-item p{font-size:13px;line-height:1.55;color:#56657b;white-space:pre-line;}
   .policy-updated{margin-top:11px;font-size:11px;color:#718096;}
+  .price-showcase{margin-top:24px;padding:22px 16px 18px;border:1px solid #c7d9f2;border-radius:20px;background:linear-gradient(180deg,#f8fbff 0%,#f1f6ff 100%);box-shadow:0 12px 28px rgba(35,69,120,.09);}
+  .price-showcase .cat-label{margin:0 0 12px;font-size:18px;color:#111827;}
+  .price-showcase .cat-label .n{width:25px;height:25px;background:#1769d5;color:#fff;}
+  .price-showcase-head{margin-bottom:20px;}
+  .price-showcase-head h3{font-size:25px;line-height:1.25;letter-spacing:-.8px;color:#08152f;}
+  .price-showcase-head p{margin-top:8px;font-size:14px;line-height:1.6;color:#596579;}
+  .price-policy-basis{margin-top:12px;padding:10px 11px;border-left:3px solid #1769d5;background:#eaf3ff;color:#4d5d73;font-size:11.5px;line-height:1.55;}
+  .price-policy-basis b{color:#0b57c4;}
+  .price-list{position:relative;}
+  .price-model{display:none;position:relative;padding:18px 16px 20px;border:1px solid #d7dde7;border-radius:4px;background:#fff;box-shadow:0 14px 30px rgba(37,52,77,.10);}
+  .price-model::before,.price-model::after{content:'';position:absolute;left:0;width:100%;height:8px;background:linear-gradient(135deg,transparent 5px,#fff 0) 0 0/10px 10px repeat-x;pointer-events:none;}
+  .price-model::before{top:-7px;transform:rotate(180deg);}
+  .price-model::after{bottom:-7px;}
+  .price-model.selected{display:block;animation:priceCardIn .25s ease;}
+  @keyframes priceCardIn{from{opacity:.35;transform:translateX(8px)}to{opacity:1;transform:translateX(0)}}
+  .price-model-select{width:100%;padding:8px 6px 20px;border:0;background:transparent;color:inherit;opacity:1;cursor:default;box-shadow:none;}
+  .price-model-media{display:flex;align-items:center;justify-content:center;height:225px;}
+  .price-model-media img{display:block;width:100%;max-width:255px;height:215px;object-fit:contain;filter:drop-shadow(0 12px 18px rgba(37,68,116,.18));}
+  .price-model-name{margin-top:8px;font-size:20px;line-height:1.25;color:#111827;text-align:center;}
+  .price-expand-hint{display:none;}
+  .price-model-details{display:block;margin:0;padding:19px 0 0;border:0;border-top:1px dashed #aeb8c7;border-radius:0;background:transparent;box-shadow:none;animation:priceDetailsIn .24s ease;}
+  @keyframes priceDetailsIn{from{opacity:0;transform:translateY(-7px)}to{opacity:1;transform:translateY(0)}}
+  .price-breakdown{display:grid;gap:0;}
+  .price-line{display:flex;align-items:baseline;justify-content:space-between;gap:16px;padding:9px 1px;border-bottom:1px dotted #d8dee7;font-size:14px;line-height:1.4;}
+  .price-line span{color:#5b687b;white-space:nowrap;}
+  .price-line:not(:first-child) span{color:#34445a;font-weight:900;}
+  .price-line strong{color:#1d293a;text-align:right;font-size:15px;font-weight:500;}
+  .price-line:first-child strong{font-weight:900;}
+  .price-final{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;margin-top:17px;padding-top:16px;border-top:1px dashed #b8cae2;}
+  .price-final span{max-width:175px;font-size:17px;line-height:1.35;font-weight:900;color:#075cc7;}
+  .price-final strong{font-size:29px;line-height:1;color:#075cc7;text-align:right;white-space:nowrap;letter-spacing:-1px;}
+  .price-conditions{margin-top:15px;padding:13px 14px;border-radius:12px;background:#f4f7fb;color:#4d5c70;font-size:12px;line-height:1.65;}
+  .price-conditions strong{display:block;margin-bottom:3px;color:#1d293a;font-size:13px;}
+  .price-conditions ul{margin:0;padding-left:17px;}
+  .price-detail-link{display:flex;align-items:center;justify-content:center;margin-top:17px;min-height:54px;border-radius:11px;background:#ffe500;color:#111827;font-size:17px;font-weight:900;text-decoration:none;box-shadow:0 8px 18px rgba(255,215,0,.18);}
+  .price-carousel-nav{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:16px;}
+  .price-carousel-arrow{width:42px;height:42px;border:1px solid #9ec5f6;border-radius:12px;background:#fff;color:#1769d5;font-size:25px;line-height:1;cursor:pointer;}
+  .price-carousel-dots{display:flex;align-items:center;gap:7px;}
+  .price-carousel-dot{width:10px;height:10px;padding:0;border:0;border-radius:50%;background:#c8d5e7;cursor:pointer;transition:width .2s,background .2s;}
+  .price-carousel-dot.selected{width:28px;border-radius:999px;background:#3182f6;}
+  .price-expanded-footer{display:block;}
+  .price-notice{display:flex;gap:9px;margin:18px 0 14px;padding:13px 12px;border-radius:12px;background:#e5f0ff;color:#52637b;font-size:11.5px;line-height:1.55;}
+  .price-notice::before{content:'i';flex:0 0 20px;width:20px;height:20px;border-radius:50%;background:#1769d5;color:#fff;font-weight:900;text-align:center;line-height:20px;}
+  .price-showcase[data-state="ready"] .price-placeholder{color:#075cc7;}
   .reservation-live{display:block;color:#111827;font-size:18px;font-weight:900;line-height:1.2;white-space:nowrap;}
 </style>
 <!-- Danggeun Market Code -->
@@ -480,7 +524,7 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
   <div class="divider"></div>
 
   <!-- ② 라인업 미리보기 -->
-  <section class="lineup-section">
+  <section class="lineup-section" id="lineup">
     <p class="sec-eyebrow">Coming Soon</p>
     <h2>Galaxy Z Fold 8 Series<br>미리 만나보세요</h2>
     <p class="sub">라인업부터 확인하고, 소식을 가장 먼저 받아보세요.</p>
@@ -575,10 +619,87 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
         <li><b>New 갤럭시 AI 구독클럽</b>폴더블폰 구매 고객 대상<br>전용 서비스 운영<div class="benefit-mini-graphic" aria-hidden="true"><img src="assets/benefit-ai-club.webp" alt="" loading="lazy" decoding="async"></div></li>
       </ul>
     </div>
-    <div class="soon-card benefit-card">
-      <div class="benefit-visual"><img src="assets/page-material-2.png" alt="폰스팟 사전예약 혜택 안내 이미지"></div>
+    <div class="price-showcase expanded" id="price-showcase" data-state="preview">
       <div class="cat-label"><span class="n">2</span>폰스팟 사전예약 혜택</div>
-      <div class="d"><span class="status">공개 예정</span> <b>폰스팟 사전예약 한정 특가</b> 준비 중이며, 확정되는 대로 안내드립니다.</div>
+      <div class="price-showcase-head">
+        <h3>모델별 폰스팟 사전예약 조건을<br>비교해보세요</h3>
+        <p>출고가와 지원금, 폰스팟 혜택을 한눈에 확인할 수 있도록 정리해드립니다.</p>
+        <div class="price-policy-basis">KT는 9만원 요금제에 개통 가능</div>
+      </div>
+      <div class="price-list">
+        <article class="price-model selected" data-price-model="flip8">
+          <button class="price-model-select" type="button" aria-expanded="true" tabindex="-1" disabled>
+            <span class="price-model-media"><img src="assets/galaxy-z-flip8-official-cutout.webp" alt="Galaxy Z Flip 8"></span>
+            <span class="price-model-name">Galaxy Z Flip 8</span>
+          </button>
+          <div class="price-model-details">
+            <div class="price-breakdown">
+              <div class="price-line"><span>출고가(512GB)</span><strong data-price="retailPrice">1,936,000원</strong></div>
+              <div class="price-line"><span>더블 스토리지 혜택</span><strong data-price="storageBenefit">-253,000원</strong></div>
+              <div class="price-line"><span>공시지원금</span><strong data-price="supportAmount">-500,000원</strong></div>
+              <div class="price-line"><span>추가 지원금</span><strong>-200,000원</strong></div>
+              <div class="price-line"><span>폰스팟 자체 할인</span><strong data-price="phonespotBenefit">-260,000원</strong></div>
+            </div>
+            <div class="price-final"><span>폰스팟 사전예약가</span><strong class="price-placeholder" data-price="preorderPrice">72만원부터</strong></div>
+            <a class="price-detail-link" href="https://pf.kakao.com/_hZPcG/chat" target="_blank" rel="noopener noreferrer">지금 사전예약 신청하기</a>
+          </div>
+        </article>
+        <article class="price-model" data-price-model="fold8">
+          <button class="price-model-select" type="button" aria-expanded="true" tabindex="-1" disabled>
+            <span class="price-model-media"><img src="assets/galaxy-z-fold8-official-cutout.webp" alt="Galaxy Z Fold 8"></span>
+            <span class="price-model-name">Galaxy Z Fold 8</span>
+          </button>
+          <div class="price-model-details">
+            <div class="price-breakdown">
+              <div class="price-line"><span>출고가(512GB)</span><strong data-price="retailPrice">2,531,100원</strong></div>
+              <div class="price-line"><span>더블 스토리지 혜택</span><strong data-price="storageBenefit">-253,000원</strong></div>
+              <div class="price-line"><span>공시지원금</span><strong data-price="supportAmount">-500,000원</strong></div>
+              <div class="price-line"><span>추가 지원금</span><strong>-200,000원</strong></div>
+              <div class="price-line"><span>폰스팟 자체 할인</span><strong data-price="phonespotBenefit">-260,000원</strong></div>
+            </div>
+            <div class="price-final"><span>폰스팟 사전예약가</span><strong class="price-placeholder" data-price="preorderPrice">131만원부터</strong></div>
+            <a class="price-detail-link" href="https://pf.kakao.com/_hZPcG/chat" target="_blank" rel="noopener noreferrer">지금 사전예약 신청하기</a>
+          </div>
+        </article>
+        <article class="price-model" data-price-model="ultra">
+          <button class="price-model-select" type="button" aria-expanded="true" tabindex="-1" disabled>
+            <span class="price-model-media"><img src="assets/galaxy-z-fold8-ultra-official-cutout.webp" alt="Galaxy Z Fold 8 Ultra"></span>
+            <span class="price-model-name">Galaxy Z Fold 8 Ultra</span>
+          </button>
+          <div class="price-model-details">
+            <div class="price-breakdown">
+              <div class="price-line"><span>출고가(512GB)</span><strong data-price="retailPrice">2,830,300원</strong></div>
+              <div class="price-line"><span>더블 스토리지 혜택</span><strong data-price="storageBenefit">-253,000원</strong></div>
+              <div class="price-line"><span>공시지원금</span><strong data-price="supportAmount">-500,000원</strong></div>
+              <div class="price-line"><span>추가 지원금</span><strong>-200,000원</strong></div>
+              <div class="price-line"><span>폰스팟 자체 할인</span><strong data-price="phonespotBenefit">-260,000원</strong></div>
+            </div>
+            <div class="price-final"><span>폰스팟 사전예약가</span><strong class="price-placeholder" data-price="preorderPrice">161만원부터</strong></div>
+            <a class="price-detail-link" href="https://pf.kakao.com/_hZPcG/chat" target="_blank" rel="noopener noreferrer">지금 사전예약 신청하기</a>
+          </div>
+        </article>
+      </div>
+      <div class="price-carousel-nav" aria-label="가격 확인 기종 선택">
+        <button class="price-carousel-arrow price-carousel-prev" type="button" aria-label="이전 기종">&#8249;</button>
+        <div class="price-carousel-dots">
+          <button class="price-carousel-dot selected" type="button" data-index="0" aria-label="Galaxy Z Flip 8 선택"></button>
+          <button class="price-carousel-dot" type="button" data-index="1" aria-label="Galaxy Z Fold 8 선택"></button>
+          <button class="price-carousel-dot" type="button" data-index="2" aria-label="Galaxy Z Fold 8 Ultra 선택"></button>
+        </div>
+        <button class="price-carousel-arrow price-carousel-next" type="button" aria-label="다음 기종">&#8250;</button>
+      </div>
+      <div class="price-expanded-footer">
+        <div class="price-conditions">
+          <strong>가격 적용 조건</strong>
+          <ul>
+            <li>표시된 최저가는 SKT 번호이동 및 베스트 109(우주) 요금제 기준입니다.</li>
+            <li>KT 번호이동은 9만원 요금제부터 진행 가능하며, 추가 지원금 차이로 최종 가격이 달라집니다.</li>
+            <li>LG U+ 사전예약 조건은 공개 예정입니다.</li>
+            <li>통신사·가입 유형·요금제 및 부가서비스 선택에 따라 실제 구매 조건이 달라질 수 있습니다.</li>
+          </ul>
+        </div>
+        <p class="price-notice">512GB 출고가에서 더블 스토리지 혜택·공시지원금·추가 지원금·폰스팟 자체 할인을 차감한 기준입니다. 통신사·가입 유형·요금제에 따라 최종 조건이 달라질 수 있습니다.</p>
+      </div>
     </div>
     <div class="soon-card benefit-card carrier-policy-card" id="carrier-policy-card" aria-live="polite">
       <div class="cat-label"><span class="n">3</span>통신사별 사전예약 혜택</div>
@@ -641,7 +762,7 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
     <p class="sec-eyebrow">사전예약 신청하고</p>
     <h2>출시 정보가 확정되면<br>핵심만 정리해서 알려드려요!</h2>
     <div class="gift"><img src="assets/bell-3d-ringing.png" alt="귀엽게 울리는 사전예약 알림 종"></div>
-    <a class="kakao-btn" href="https://pf.kakao.com/_hZPcG/chat" target="_blank" rel="noopener noreferrer"><span>💬</span>사전예약 신청하기</a>
+    <a class="kakao-btn" href="https://pf.kakao.com/_hZPcG/chat" target="_blank" rel="noopener noreferrer"><span>💬</span>지금 사전예약 신청하기</a>
   </section>
 
   <div class="divider"></div>
@@ -695,7 +816,7 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
     <div class="sb-t">Galaxy Z Foldable 8</div>
     <div class="sb-count" id="countdown"><strong class="reservation-live">사전예약 진행 중</strong></div>
   </div>
-  <a class="sb-btn" href="https://pf.kakao.com/_hZPcG/chat" target="_blank" rel="noopener noreferrer">💬 사전예약 신청하기</a>
+  <a class="sb-btn" href="https://pf.kakao.com/_hZPcG/chat" target="_blank" rel="noopener noreferrer">💬 지금 사전예약 신청하기</a>
 </div>
 
 <script>
@@ -707,17 +828,17 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
   var PREORDER_RELEASE={
     isOpen:false,
     kakaoUrl:'https://pf.kakao.com/_hZPcG/chat',
-    ctaText:'사전예약 신청하기',
-    updatedAt:'',
+    ctaText:'지금 사전예약 신청하기',
+    updatedAt:'2026-07-28',
     models:{
-      flip8:{name:'Galaxy Z Flip 8',retailPrice:'',preorderPrice:'',monthlyPrice:'',condition:'',offers:[]},
-      fold8:{name:'Galaxy Z Fold 8',retailPrice:'',preorderPrice:'',monthlyPrice:'',condition:'',offers:[]},
-      ultra:{name:'Galaxy Z Fold 8 Ultra',retailPrice:'',preorderPrice:'',monthlyPrice:'',condition:'',offers:[]}
+      flip8:{name:'Galaxy Z Flip 8',retailPrice:'1,936,000원',storageBenefit:'-253,000원',supportAmount:'-500,000원',phonespotBenefit:'-260,000원',preorderPrice:'72만원부터',monthlyPrice:'',condition:'SKT 번호이동 · 베스트 109(우주) 요금제 기준',offers:[]},
+      fold8:{name:'Galaxy Z Fold 8',retailPrice:'2,531,100원',storageBenefit:'-253,000원',supportAmount:'-500,000원',phonespotBenefit:'-260,000원',preorderPrice:'131만원부터',monthlyPrice:'',condition:'SKT 번호이동 · 베스트 109(우주) 요금제 기준',offers:[]},
+      ultra:{name:'Galaxy Z Fold 8 Ultra',retailPrice:'2,830,300원',storageBenefit:'-253,000원',supportAmount:'-500,000원',phonespotBenefit:'-260,000원',preorderPrice:'161만원부터',monthlyPrice:'',condition:'SKT 번호이동 · 베스트 109(우주) 요금제 기준',offers:[]}
     },
     carriers:{
-      skt:{name:'SKT',benefit:''},
-      kt:{name:'KT',benefit:''},
-      lgu:{name:'LG U+',benefit:''}
+      skt:{name:'SKT',benefit:'베스트 109(우주) 요금제 기준 정책 확인'},
+      kt:{name:'KT',benefit:'초이스 110 넷플릭스 기준 · 사전예약은 9만원대 요금제부터 진행 가능'},
+      lgu:{name:'LG U+',benefit:'공개 예정'}
     }
   };
 
@@ -726,7 +847,7 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
     if(!PREORDER_RELEASE.isOpen) return;
     var models=Object.keys(PREORDER_RELEASE.models).map(function(k){return PREORDER_RELEASE.models[k];});
     var carriers=Object.keys(PREORDER_RELEASE.carriers).map(function(k){return PREORDER_RELEASE.carriers[k];});
-    var ready=PREORDER_RELEASE.updatedAt&&models.every(function(m){return m.retailPrice&&(m.preorderPrice||m.offers.length)&&m.condition;})&&carriers.every(function(c){return c.benefit;});
+    var ready=PREORDER_RELEASE.updatedAt&&models.every(function(m){return m.retailPrice&&m.supportAmount&&m.phonespotBenefit&&(m.preorderPrice||m.offers.length)&&m.condition;})&&carriers.every(function(c){return c.benefit;});
     if(!ready){console.warn('사전예약 정책 입력값이 비어 있어 공개 전환을 중단했습니다.');return;}
 
     document.body.classList.add('preorder-open');
@@ -759,6 +880,22 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
       cta.innerHTML='<span>💬</span>'+item.name+' '+PREORDER_RELEASE.ctaText;
     });
 
+    var priceShowcase=document.getElementById('price-showcase');
+    if(priceShowcase){
+      priceShowcase.setAttribute('data-state','ready');
+      Object.keys(PREORDER_RELEASE.models).forEach(function(key){
+        var model=PREORDER_RELEASE.models[key];
+        var card=priceShowcase.querySelector('[data-price-model="'+key+'"]');
+        if(!card) return;
+        ['retailPrice','storageBenefit','supportAmount','phonespotBenefit','preorderPrice'].forEach(function(field){
+          var target=card.querySelector('[data-price="'+field+'"]');
+          if(target&&model[field]) target.textContent=model[field];
+        });
+        card.querySelectorAll('a[href*="pf.kakao.com"]').forEach(function(link){link.href=PREORDER_RELEASE.kakaoUrl;});
+      });
+      priceShowcase.querySelectorAll('a[href*="pf.kakao.com"]').forEach(function(link){link.href=PREORDER_RELEASE.kakaoUrl;});
+    }
+
     var grid=document.getElementById('carrier-policy-grid');
     carriers.forEach(function(carrier){
       var item=document.createElement('article');
@@ -768,6 +905,35 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
     });
     document.getElementById('policy-updated').textContent='혜택 기준일 '+PREORDER_RELEASE.updatedAt+' · 통신사 정책에 따라 변경될 수 있습니다.';
     document.getElementById('carrier-policy-card').classList.add('open');
+  })();
+
+  // 폰스팟 가격 카드: 한 기종씩 선택하고 가격 패널 펼치기
+  (function(){
+    var showcase=document.getElementById('price-showcase');
+    if(!showcase) return;
+    var cards=Array.prototype.slice.call(showcase.querySelectorAll('.price-model'));
+    var dots=Array.prototype.slice.call(showcase.querySelectorAll('.price-carousel-dot'));
+    var prev=showcase.querySelector('.price-carousel-prev');
+    var next=showcase.querySelector('.price-carousel-next');
+    var current=0;
+
+    function selectPriceModel(index){
+      current=(index+cards.length)%cards.length;
+      cards.forEach(function(card,i){
+        var selected=i===current;
+        card.classList.toggle('selected',selected);
+        var button=card.querySelector('.price-model-select');
+        if(button) button.setAttribute('aria-expanded','true');
+      });
+      dots.forEach(function(dot,i){dot.classList.toggle('selected',i===current);});
+    }
+
+    dots.forEach(function(dot){
+      dot.addEventListener('click',function(){selectPriceModel(Number(dot.getAttribute('data-index'))||0);});
+    });
+    if(prev) prev.addEventListener('click',function(){selectPriceModel(current-1);});
+    if(next) next.addEventListener('click',function(){selectPriceModel(current+1);});
+    selectPriceModel(0);
   })();
 
   // 사전예약 시작: 2026-07-28 00:00 KST
