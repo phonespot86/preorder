@@ -33,7 +33,7 @@ fbq('track', 'PageView');
 <!-- End Meta Pixel Code -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-<title>갤럭시 Z 폴드 8 사전예약 알림 | 폰스팟</title>
+<title>갤럭시 Z 폴드 8 사전예약 신청 | 폰스팟</title>
 <style>
   :root{
     --navy-deep:#050a1a; --navy:#0a1330; --navy-card:#101c42;
@@ -433,6 +433,24 @@ fbq('track', 'PageView');
   }
   .sb-left .sb-t,.sb-count .u{color:#66748a;}
   .sb-count .n{color:#111827;}
+  /* 사전예약 정책 공개 전환용 영역: PREORDER_RELEASE.isOpen=true일 때만 노출 */
+  .policy-price{display:none;margin-top:14px;padding:14px;border:1px solid #cbdcf3;border-radius:13px;background:#fff;color:#172033;}
+  .policy-price.open{display:block;}
+  .policy-price-title{font-size:15px;font-weight:900;margin-bottom:10px;color:#111827;}
+  .policy-price-row{display:flex;justify-content:space-between;gap:16px;padding:7px 0;border-bottom:1px solid #e5edf7;font-size:13px;line-height:1.4;}
+  .policy-price-row:last-of-type{border-bottom:0;}
+  .policy-price-row span{color:#66748a;}
+  .policy-price-row strong{text-align:right;color:#1269d3;}
+  .policy-price-condition{margin-top:10px;font-size:11px;line-height:1.55;color:#68768d;}
+  .carrier-policy-card{display:none;margin-top:16px;}
+  .carrier-policy-card.open{display:block;}
+  .carrier-policy-grid{display:grid;gap:10px;margin-top:12px;}
+  .carrier-policy-item{padding:14px;border:1px solid #d7e3f4;border-radius:13px;background:#fff;color:#172033;}
+  .carrier-policy-item h3{font-size:16px;margin-bottom:7px;color:#1269d3;}
+  .carrier-policy-item p{font-size:13px;line-height:1.55;color:#56657b;white-space:pre-line;}
+  .policy-updated{margin-top:11px;font-size:11px;color:#718096;}
+  body.reservation-open .hero-cta-link::after{content:"사전예약 신청하기";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;border-radius:999px;background:#000;color:#fff;font-size:clamp(20px,6vw,31px);font-weight:900;letter-spacing:-1px;}
+  .reservation-live{display:block;color:#111827;font-size:18px;font-weight:900;line-height:1.2;white-space:nowrap;}
 </style>
 <!-- Danggeun Market Code -->
 <script src="https://karrot-pixel.business.daangn.com/karrot-pixel.js"></script>
@@ -442,7 +460,7 @@ fbq('track', 'PageView');
 </script>
 <!-- End Danggeun Market Code -->
 </head>
-<body>
+<body class="reservation-open">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K7DNZBK9"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -456,8 +474,8 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
 
   <!-- ① 히어로 (언팩 티저 이미지 + 텍스트 오버레이) -->
   <section class="hero">
-    <img class="hero-bg" src="assets/fold8-preorder-hero.png?v=3" alt="Galaxy Z Fold 8 Series 새로운 폴더블의 시작, 사전예약 알림 신청">
-    <a class="hero-cta-link" href="https://pf.kakao.com/_hZPcG/friend" target="_blank" rel="noopener noreferrer" aria-label="카카오톡으로 사전예약 알림 신청하기"></a>
+    <img class="hero-bg" src="assets/fold8-preorder-hero.png?v=3" alt="Galaxy Z Fold 8 Series 새로운 폴더블의 시작, 사전예약 신청">
+    <a class="hero-cta-link" href="https://pf.kakao.com/_hZPcG/chat" target="_blank" rel="noopener noreferrer" aria-label="카카오톡으로 사전예약 신청하기"></a>
   </section>
 
   <div class="divider"></div>
@@ -510,7 +528,7 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
           <div class="spec-row"><span class="key">배터리</span><span class="value">4,300mAh<br>비디오 재생 최대 31시간</span></div>
           <div class="spec-row"><span class="key">저장용량</span><span class="value">256GB / 512GB, 메모리 12GB</span></div>
           <div class="spec-row"><span class="key">크기·무게</span><span class="value">메인 약 6.9인치 · 커버 약 4.1인치<br>펼침 166.9 × 75.4 × 6.1mm<br>접힘 85.7 × 75.4 × 13.1mm · 180g</span></div>
-          <a class="kakao-btn spec-cta" href="https://pf.kakao.com/_hZPcG/friend" target="_blank" rel="noopener noreferrer"><span>💬</span>갤럭시 Z 플립 8 알림 신청</a>
+          <a class="kakao-btn spec-cta" href="https://pf.kakao.com/_hZPcG/chat" target="_blank" rel="noopener noreferrer"><span>💬</span>갤럭시 Z 플립 8 사전예약 신청하기</a>
         </div>
       </div>
       <div class="spec-panel" data-panel="fold8">
@@ -523,7 +541,7 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
           <div class="spec-row"><span class="key">배터리</span><span class="value">4,800mAh<br>비디오 재생 26시간 이상</span></div>
           <div class="spec-row"><span class="key">저장용량</span><span class="value">256GB / 512GB / 1TB</span></div>
           <div class="spec-row"><span class="key">크기·무게</span><span class="value">메인 약 7.6인치 · 커버 약 5.4인치<br>펼침 161.4 × 123.9 × 4.5mm<br>접힘 123.9 × 81.9 × 9.7mm · 201g</span></div>
-          <a class="kakao-btn spec-cta" href="https://pf.kakao.com/_hZPcG/friend" target="_blank" rel="noopener noreferrer"><span>💬</span>갤럭시 Z 폴드 8 알림 신청</a>
+          <a class="kakao-btn spec-cta" href="https://pf.kakao.com/_hZPcG/chat" target="_blank" rel="noopener noreferrer"><span>💬</span>갤럭시 Z 폴드 8 사전예약 신청하기</a>
         </div>
       </div>
       <div class="spec-panel" data-panel="ultra">
@@ -536,7 +554,7 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
           <div class="spec-row"><span class="key">배터리</span><span class="value">5,000mAh · 45W 고속 충전<br>비디오 재생 최대 27시간</span></div>
           <div class="spec-row"><span class="key">저장용량</span><span class="value">256GB / 512GB / 1TB</span></div>
           <div class="spec-row"><span class="key">크기·무게</span><span class="value">메인 약 8.0인치 · 커버 약 6.5인치<br>펼침 158.4 × 143.2 × 4.1mm<br>접힘 158.4 × 72.8 × 8.9mm · 215g</span></div>
-          <a class="kakao-btn spec-cta" href="https://pf.kakao.com/_hZPcG/friend" target="_blank" rel="noopener noreferrer"><span>💬</span>갤럭시 Z 폴드 8 울트라 알림 신청</a>
+          <a class="kakao-btn spec-cta" href="https://pf.kakao.com/_hZPcG/chat" target="_blank" rel="noopener noreferrer"><span>💬</span>갤럭시 Z 폴드 8 울트라 사전예약 신청하기</a>
         </div>
       </div>
     </div>
@@ -562,6 +580,11 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
       <div class="benefit-visual"><img src="assets/page-material-2.png" alt="폰스팟 사전예약 혜택 안내 이미지"></div>
       <div class="cat-label"><span class="n">2</span>폰스팟 사전예약 혜택</div>
       <div class="d"><span class="status">공개 예정</span> <b>폰스팟 사전예약 한정 특가</b> 준비 중이며, 확정되는 대로 안내드립니다.</div>
+    </div>
+    <div class="soon-card benefit-card carrier-policy-card" id="carrier-policy-card" aria-live="polite">
+      <div class="cat-label"><span class="n">3</span>통신사별 사전예약 혜택</div>
+      <div class="carrier-policy-grid" id="carrier-policy-grid"></div>
+      <p class="policy-updated" id="policy-updated"></p>
     </div>
   </section>
 
@@ -590,7 +613,7 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
     <p class="process-kicker">PROCESS</p>
     <h2>손쉬운 온라인 사전예약<br>진행 절차 안내</h2>
     <div class="process-scroll">
-      <article class="process-card"><div class="visual"><img src="assets/page-material-3.png" alt="카카오톡 채널 추가"></div><span class="step-no">1</span><h3>사전예약 알림 신청</h3><p>카카오 채널을 추가하고 원하는 모델의 알림을 신청합니다.</p></article>
+      <article class="process-card"><div class="visual"><img src="assets/page-material-3.png" alt="카카오톡 사전예약 상담"></div><span class="step-no">1</span><h3>사전예약 신청</h3><p>카카오톡 상담을 통해 원하는 모델의 사전예약을 신청합니다.</p></article>
       <article class="process-card"><div class="visual"><img src="assets/page-material-4.png" alt="사전예약 시작 안내 메시지"></div><span class="step-no">2</span><h3>예약 시작 안내 확인</h3><p>공식 사전예약이 시작되면 카카오톡으로 일정과 신청 방법을 안내받습니다.</p></article>
       <article class="process-card"><div class="visual"><img src="assets/page-material-5.png" alt="갤럭시 Z 폴드 8 울트라 사전예약 신청서 작성"></div><span class="step-no">3</span><h3>상담 및 신청서 작성</h3><p>가입 유형, 요금제, 배송 또는 수령 방법을 상담한 뒤 신청서를 작성합니다.</p></article>
       <article class="process-card"><div class="visual"><img src="assets/page-material-6.png" alt="사전예약 완료 및 개통 진행 안내"></div><span class="step-no">4</span><h3>개통 진행 확인</h3><p>신청 내용 확인 후 개통을 진행하며 주요 상태를 안내받습니다.</p></article>
@@ -616,10 +639,10 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
 
   <!-- ⑨ 파이널 CTA -->
   <section class="final">
-    <p class="sec-eyebrow">알림 신청하고</p>
+    <p class="sec-eyebrow">사전예약 신청하고</p>
     <h2>출시 정보가 확정되면<br>핵심만 정리해서 알려드려요!</h2>
     <div class="gift"><img src="assets/bell-3d-ringing.png" alt="귀엽게 울리는 사전예약 알림 종"></div>
-    <a class="kakao-btn" href="https://pf.kakao.com/_hZPcG/friend" target="_blank" rel="noopener noreferrer"><span>💬</span>사전예약 알림 신청하기</a>
+    <a class="kakao-btn" href="https://pf.kakao.com/_hZPcG/chat" target="_blank" rel="noopener noreferrer"><span>💬</span>사전예약 신청하기</a>
   </section>
 
   <div class="divider"></div>
@@ -631,11 +654,11 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
     <div style="height:12px"></div>
     <details>
       <summary>사전예약은 어떻게 하나요? <span class="arrow">▼</span></summary>
-      <div class="acc-body"><strong>7월 28일</strong>부터 <strong>카카오톡 문의</strong>를 통해 사전예약이 가능합니다. 알림 신청하시면 오픈 즉시 안내드려요.</div>
+      <div class="acc-body"><strong>7월 28일</strong>부터 <strong>카카오톡 문의</strong>를 통해 사전예약이 가능합니다. 원하시는 모델과 가입 조건을 상담해드려요.</div>
     </details>
     <details>
-      <summary>알림 신청하면 뭐가 좋나요? <span class="arrow">▼</span></summary>
-      <div class="acc-body"><strong>사전예약 오픈 알림</strong>은 물론, 사전예약 전날 <strong>폰스팟 한정 혜택</strong>을 가장 먼저 받아보실 수 있습니다.</div>
+      <summary>사전예약을 신청하면 어떻게 진행되나요? <span class="arrow">▼</span></summary>
+      <div class="acc-body">카카오톡으로 모델과 가입 조건을 상담한 뒤 신청서를 작성하고, 개통과 수령 절차를 순서대로 안내받으실 수 있습니다.</div>
     </details>
     <details>
       <summary>매장 방문 없이 개통 가능한가요? <span class="arrow">▼</span></summary>
@@ -649,7 +672,7 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
       <a href="https://www.instagram.com/phonespot.kr/" target="_blank" rel="noopener noreferrer" title="인스타그램" aria-label="폰스팟 인스타그램">
         <svg viewBox="0 0 32 32" aria-hidden="true"><defs><radialGradient id="ig-gradient" cx="30%" cy="105%" r="125%"><stop offset="0" stop-color="#ffd600"/><stop offset=".28" stop-color="#ff7a00"/><stop offset=".52" stop-color="#ff0169"/><stop offset=".78" stop-color="#d300c5"/><stop offset="1" stop-color="#7638fa"/></radialGradient></defs><rect x="2" y="2" width="28" height="28" rx="8" fill="url(#ig-gradient)"/><rect x="8" y="8" width="16" height="16" rx="5" fill="none" stroke="#fff" stroke-width="2.2"/><circle cx="16" cy="16" r="4" fill="none" stroke="#fff" stroke-width="2.2"/><circle cx="22.2" cy="9.8" r="1.35" fill="#fff"/></svg>
       </a>
-      <a href="https://pf.kakao.com/_hZPcG/friend" target="_blank" rel="noopener noreferrer" title="카카오톡 채널" aria-label="폰스팟 카카오톡 채널">
+      <a href="https://pf.kakao.com/_hZPcG/chat" target="_blank" rel="noopener noreferrer" title="카카오톡 사전예약 상담" aria-label="폰스팟 카카오톡 사전예약 상담">
         <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="#FEE500"/><path d="M16 8.1c-5.3 0-9.6 3.35-9.6 7.48 0 2.62 1.72 4.91 4.32 6.25l-1.1 4.05c-.1.35.3.63.6.43l4.72-3.08c.35.04.7.06 1.06.06 5.3 0 9.6-3.35 9.6-7.71S21.3 8.1 16 8.1Z" fill="#191919"/></svg>
       </a>
     </div>
@@ -670,18 +693,84 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
 <!-- 스티키 카운트다운 바 -->
 <div class="sticky-bar">
   <div class="sb-left">
-    <div class="sb-t">New Galaxy 사전예약 시작까지</div>
-    <div class="sb-count" id="countdown">
-      <span class="n">00</span><span class="u">일</span>
-      <span class="n">00</span><span class="u">시간</span>
-      <span class="n">00</span><span class="u">분</span>
-      <span class="n">00</span><span class="u">초</span>
-    </div>
+    <div class="sb-t">Galaxy Z Foldable 8</div>
+    <div class="sb-count" id="countdown"><strong class="reservation-live">사전예약 진행 중</strong></div>
   </div>
-  <a class="sb-btn" href="https://pf.kakao.com/_hZPcG/friend" target="_blank" rel="noopener noreferrer">🔔 알림 신청하기</a>
+  <a class="sb-btn" href="https://pf.kakao.com/_hZPcG/chat" target="_blank" rel="noopener noreferrer">💬 사전예약 신청하기</a>
 </div>
 
 <script>
+  /*
+   * 사전예약 정책 공개용 설정
+   * 내일 아래 값만 채운 뒤 isOpen을 true로 바꾸면 가격·통신사 혜택·CTA가 함께 전환됩니다.
+   * 실제 배포 전에는 반드시 세 기종과 통신 3사의 빈 문자열이 없는지 확인하세요.
+   */
+  var PREORDER_RELEASE={
+    isOpen:false,
+    kakaoUrl:'https://pf.kakao.com/_hZPcG/chat',
+    ctaText:'사전예약 신청하기',
+    updatedAt:'',
+    models:{
+      flip8:{name:'Galaxy Z Flip 8',retailPrice:'',preorderPrice:'',monthlyPrice:'',condition:'',offers:[]},
+      fold8:{name:'Galaxy Z Fold 8',retailPrice:'',preorderPrice:'',monthlyPrice:'',condition:'',offers:[]},
+      ultra:{name:'Galaxy Z Fold 8 Ultra',retailPrice:'',preorderPrice:'',monthlyPrice:'',condition:'',offers:[]}
+    },
+    carriers:{
+      skt:{name:'SKT',benefit:''},
+      kt:{name:'KT',benefit:''},
+      lgu:{name:'LG U+',benefit:''}
+    }
+  };
+
+  // 공개 전환: 설정값이 모두 채워진 경우에만 실행
+  (function(){
+    if(!PREORDER_RELEASE.isOpen) return;
+    var models=Object.keys(PREORDER_RELEASE.models).map(function(k){return PREORDER_RELEASE.models[k];});
+    var carriers=Object.keys(PREORDER_RELEASE.carriers).map(function(k){return PREORDER_RELEASE.carriers[k];});
+    var ready=PREORDER_RELEASE.updatedAt&&models.every(function(m){return m.retailPrice&&(m.preorderPrice||m.offers.length)&&m.condition;})&&carriers.every(function(c){return c.benefit;});
+    if(!ready){console.warn('사전예약 정책 입력값이 비어 있어 공개 전환을 중단했습니다.');return;}
+
+    document.body.classList.add('preorder-open');
+    document.querySelectorAll('a[href*="pf.kakao.com/_hZPcG"]').forEach(function(link){
+      link.href=PREORDER_RELEASE.kakaoUrl;
+      if(link.classList.contains('sb-btn')) link.textContent='🔔 '+PREORDER_RELEASE.ctaText;
+      if(link.classList.contains('kakao-btn')&&!link.classList.contains('spec-cta')) link.innerHTML='<span>💬</span>'+PREORDER_RELEASE.ctaText;
+      if(link.classList.contains('hero-cta-link')) link.setAttribute('aria-label','카카오톡으로 '+PREORDER_RELEASE.ctaText);
+    });
+
+    document.querySelectorAll('.spec-panel').forEach(function(panel){
+      var key=panel.getAttribute('data-panel');
+      var item=PREORDER_RELEASE.models[key];
+      if(!item) return;
+      var box=document.createElement('div');
+      box.className='policy-price open';
+      var offerRows=(item.offers||[]).map(function(offer){
+        var label=[offer.carrier,offer.activationType,offer.plan].filter(Boolean).join(' · ');
+        return '<div class="policy-price-row"><span>'+label+'</span><strong>'+offer.price+'</strong></div>';
+      }).join('');
+      box.innerHTML='<div class="policy-price-title">'+item.name+' 사전예약 가격</div>'+
+        '<div class="policy-price-row"><span>출고가</span><strong>'+item.retailPrice+'</strong></div>'+
+        (item.preorderPrice?'<div class="policy-price-row"><span>폰스팟 사전예약가</span><strong>'+item.preorderPrice+'</strong></div>':'')+
+        offerRows+
+        (item.monthlyPrice?'<div class="policy-price-row"><span>예상 월 납부금</span><strong>'+item.monthlyPrice+'</strong></div>':'')+
+        '<p class="policy-price-condition">'+item.condition+'</p>';
+      var cta=panel.querySelector('.spec-cta');
+      panel.querySelector('.spec-body').insertBefore(box,cta);
+      cta.href=PREORDER_RELEASE.kakaoUrl;
+      cta.innerHTML='<span>💬</span>'+item.name+' '+PREORDER_RELEASE.ctaText;
+    });
+
+    var grid=document.getElementById('carrier-policy-grid');
+    carriers.forEach(function(carrier){
+      var item=document.createElement('article');
+      item.className='carrier-policy-item';
+      item.innerHTML='<h3>'+carrier.name+'</h3><p>'+carrier.benefit+'</p>';
+      grid.appendChild(item);
+    });
+    document.getElementById('policy-updated').textContent='혜택 기준일 '+PREORDER_RELEASE.updatedAt+' · 통신사 정책에 따라 변경될 수 있습니다.';
+    document.getElementById('carrier-policy-card').classList.add('open');
+  })();
+
   // 사전예약 시작: 2026-07-28 00:00 KST
   var UNPACK = new Date('2026-07-28T00:00:00+09:00');
 
@@ -697,6 +786,7 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
   // 실시간 카운트다운
   (function(){
     var ns=document.querySelectorAll('#countdown .n');
+    if(ns.length<4) return;
     function pad(x){return (x<10?'0':'')+x;}
     function tick(){
       var ms=UNPACK-new Date();
