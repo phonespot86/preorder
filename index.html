@@ -1067,11 +1067,14 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
         var model=state.models[key];
         var meta=modelMeta[key];
         var offers=(model.offers||[]).slice().sort(function(a,b){
-          var aReady=a.status==='판매중'?0:2;
-          var bReady=b.status==='판매중'?0:2;
+          var aReady=a.status==='판매중'&&Number.isFinite(Number(a.purchasePrice))?0:1;
+          var bReady=b.status==='판매중'&&Number.isFinite(Number(b.purchasePrice))?0:1;
           if(aReady!==bReady) return aReady-bReady;
-          if(a.activationType!==b.activationType) return a.activationType==='번호이동'?-1:1;
-          return 0;
+          if(aReady===0&&bReady===0){
+            var priceDifference=Number(a.purchasePrice)-Number(b.purchasePrice);
+            if(priceDifference!==0) return priceDifference;
+          }
+          return String(a.carrier||'').localeCompare(String(b.carrier||''),'ko');
         });
         var rows=offers.map(function(offer){
           var ready=offer.status==='판매중'&&Number.isFinite(Number(offer.purchasePrice));
