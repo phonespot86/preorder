@@ -148,9 +148,11 @@ let previous = null;
 try { previous = JSON.parse(await fs.readFile(OUTPUT, 'utf8')); } catch {}
 const comparable = JSON.stringify(states);
 const previousComparable = JSON.stringify(previous?.states || null);
+const checkedAt = new Date().toISOString();
 const result = {
   source: 'https://citymarket.co.kr/pb',
-  updatedAt: comparable === previousComparable && previous?.updatedAt ? previous.updatedAt : new Date().toISOString(),
+  checkedAt,
+  updatedAt: comparable === previousComparable && previous?.updatedAt ? previous.updatedAt : checkedAt,
   states
 };
 

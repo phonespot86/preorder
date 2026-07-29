@@ -1095,7 +1095,7 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
       }).join('');
       selectLiveModel(selectedModelIndex);
       stateText.textContent='가격 정보 자동 업데이트';
-      updatedText.textContent=formatUpdated(pricePayload.updatedAt);
+      updatedText.textContent=formatUpdated(pricePayload.checkedAt||pricePayload.updatedAt);
     }
     function selectLiveModel(index){
       var cards=Array.prototype.slice.call(grid.querySelectorAll('.live-price-card'));
