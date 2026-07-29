@@ -494,6 +494,49 @@ fbq('track', 'PageView');
   .price-notice::before{content:'i';flex:0 0 20px;width:20px;height:20px;border-radius:50%;background:#1769d5;color:#fff;font-weight:900;text-align:center;line-height:20px;}
   .price-showcase[data-state="ready"] .price-placeholder{color:#075cc7;}
   .reservation-live{display:block;color:#111827;font-size:18px;font-weight:900;line-height:1.2;white-space:nowrap;}
+  .legacy-price-showcase{display:none!important;}
+  .live-price-showcase{margin-top:24px;padding:22px 14px 20px;border:1px solid #cbdcf3;border-radius:20px;background:#f4f6f9;box-shadow:0 12px 28px rgba(35,69,120,.08);}
+  .live-price-head h3{font-size:25px;line-height:1.25;letter-spacing:-.8px;color:#08152f;}
+  .live-price-head p{margin-top:8px;font-size:14px;line-height:1.6;color:#596579;}
+  .carrier-picker{margin-top:20px;padding:14px;border-radius:16px;background:#fff;box-shadow:0 5px 15px rgba(36,52,78,.07);}
+  .carrier-picker-label{display:block;margin-bottom:11px;font-size:14px;font-weight:900;color:#1d293a;}
+  .carrier-picker-buttons{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;}
+  .carrier-picker button{min-height:42px;padding:6px 2px;border:1px solid #d8e0eb;border-radius:10px;background:#f8fafc;color:#475569;font-size:12px;font-weight:800;cursor:pointer;}
+  .carrier-picker button.selected{border-color:#1b6de2;background:#eaf3ff;color:#0b5dcc;box-shadow:inset 0 0 0 1px #1b6de2;}
+  .live-price-status{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:12px 2px 15px;color:#718096;font-size:11px;line-height:1.4;}
+  .live-price-status strong{color:#15803d;font-weight:800;}
+  .live-price-status strong:empty{display:none;}
+  .live-price-status strong::before{content:'';display:inline-block;width:7px;height:7px;margin-right:5px;border-radius:50%;background:#22c55e;vertical-align:1px;}
+  .live-price-grid{display:grid;gap:16px;}
+  .live-price-card{display:none;overflow:hidden;border-radius:20px;background:#fff;box-shadow:0 4px 16px rgba(23,39,67,.12);}
+  .live-price-card.selected{display:block;animation:livePriceCardIn .24s ease;}
+  @keyframes livePriceCardIn{from{opacity:.35;transform:translateX(8px)}to{opacity:1;transform:translateX(0)}}
+  .live-model-top{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:225px;padding:19px 12px 12px;background:linear-gradient(180deg,#fbfbfc,#f4f4f6);}
+  .live-model-top img{width:100%;height:170px;object-fit:contain;filter:drop-shadow(0 9px 13px rgba(37,51,72,.13));}
+  .live-model-top h4{margin-top:10px;font-size:18px;line-height:1.3;color:#111827;text-align:center;}
+  .live-offers{padding:4px 18px 9px;}
+  .live-offer{display:grid;grid-template-columns:44px 1fr auto;align-items:center;gap:10px;min-height:88px;border-bottom:1px solid #e5e7eb;}
+  a.live-offer{color:inherit;text-decoration:none;cursor:pointer;transition:background-color .18s ease;}
+  a.live-offer:hover,a.live-offer:focus-visible{background:#f8fbff;outline:none;}
+  .live-offer:last-child{border-bottom:0;}
+  .carrier-logo-text{display:flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:11px;background:#f4f4f6;font-size:18px;font-weight:950;letter-spacing:-1.5px;}
+  .carrier-logo-text.skt{color:#3215d8;}
+  .carrier-logo-text.kt{color:#111;}
+  .carrier-logo-text.lg-u{color:#ed168c;}
+  .live-offer-main small{display:block;margin-bottom:4px;color:#7b8493;font-size:11px;}
+  .live-offer-price{font-size:17px;font-weight:900;color:#101827;white-space:nowrap;}
+  .live-offer-rate{margin-right:5px;color:#ff5b14;}
+  .live-offer-retail{display:block;margin-top:3px;color:#9aa1aa;font-size:12px;text-decoration:line-through;}
+  .live-offer-state{color:#87909e;font-size:14px;font-weight:800;white-space:nowrap;}
+  .live-offer-arrow{color:#8b95a5;font-size:18px;}
+  .live-price-cta{display:flex;align-items:center;justify-content:center;min-height:56px;margin:16px 18px 18px;border-radius:12px;background:#ffe500;color:#111827;font-size:17px;font-weight:900;text-decoration:none;}
+  .live-price-nav{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:17px;}
+  .live-price-arrow{display:flex;align-items:center;justify-content:center;width:44px;height:44px;border:1px solid #9ec5f6;border-radius:12px;background:#fff;color:#1769d5;font-size:25px;line-height:1;cursor:pointer;}
+  .live-price-dots{display:flex;align-items:center;gap:7px;}
+  .live-price-dot{width:10px;height:10px;padding:0;border:0;border-radius:50%;background:#c8d5e7;cursor:pointer;transition:width .2s,background .2s;}
+  .live-price-dot.selected{width:28px;border-radius:999px;background:#3182f6;}
+  .live-price-note{margin:17px 3px 0;color:#66748a;font-size:11.5px;line-height:1.6;}
+  @media (min-width:760px){.live-price-showcase{padding:26px}.carrier-picker{max-width:520px}.live-model-top{min-height:250px}.live-offers{padding-left:18px;padding-right:18px}}
 </style>
 <!-- Danggeun Market Code -->
 <script src="https://karrot-pixel.business.daangn.com/karrot-pixel.js"></script>
@@ -619,7 +662,38 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
         <li><b>New 갤럭시 AI 구독클럽</b>폴더블폰 구매 고객 대상<br>전용 서비스 운영<div class="benefit-mini-graphic" aria-hidden="true"><img src="assets/benefit-ai-club.webp" alt="" loading="lazy" decoding="async"></div></li>
       </ul>
     </div>
-    <div class="price-showcase expanded" id="price-showcase" data-state="preview">
+    <div class="live-price-showcase" id="live-price-showcase">
+      <div class="cat-label"><span class="n">2</span>폰스팟 실시간 가격</div>
+      <div class="live-price-head">
+        <h3>이용 중인 통신사에 맞는<br>폴더블 8 가격을 확인하세요</h3>
+        <p>현재 통신사를 선택하면 번호이동과 기기변경 가격을 함께 보여드립니다.</p>
+      </div>
+      <div class="carrier-picker" aria-label="현재 이용 중인 통신사 선택">
+        <span class="carrier-picker-label">현재 이용 중인 통신사</span>
+        <div class="carrier-picker-buttons">
+          <button type="button" class="selected" data-current-carrier="SKT" aria-pressed="true">SKT</button>
+          <button type="button" data-current-carrier="KT" aria-pressed="false">KT</button>
+          <button type="button" data-current-carrier="LG" aria-pressed="false">LG U+</button>
+          <button type="button" data-current-carrier="알뜰폰" aria-pressed="false">알뜰폰</button>
+        </div>
+      </div>
+      <div class="live-price-status" aria-live="polite">
+        <strong id="live-price-state">최신 가격 불러오는 중</strong>
+        <span id="live-price-updated"></span>
+      </div>
+      <div class="live-price-grid" id="live-price-grid"></div>
+      <div class="live-price-nav" aria-label="가격 확인 기종 선택">
+        <button class="live-price-arrow live-price-prev" type="button" aria-label="이전 기종">&#8249;</button>
+        <div class="live-price-dots">
+          <button class="live-price-dot selected" type="button" data-live-index="0" aria-label="갤럭시 Z 폴드 8 울트라 선택"></button>
+          <button class="live-price-dot" type="button" data-live-index="1" aria-label="갤럭시 Z 폴드 8 선택"></button>
+          <button class="live-price-dot" type="button" data-live-index="2" aria-label="갤럭시 Z 플립 8 선택"></button>
+        </div>
+        <button class="live-price-arrow live-price-next" type="button" aria-label="다음 기종">&#8250;</button>
+      </div>
+      <p class="live-price-note">표시 가격은 공시지원금 기준이며 통신사·가입 유형·요금제 및 부가서비스 선택에 따라 달라질 수 있습니다. 정확한 조건은 상담 시 다시 안내드립니다.</p>
+    </div>
+    <div class="price-showcase expanded legacy-price-showcase" id="price-showcase" data-state="preview">
       <div class="cat-label"><span class="n">2</span>폰스팟 사전예약 혜택</div>
       <div class="price-showcase-head">
         <h3>모델별 폰스팟 사전예약 조건을<br>비교해보세요</h3>
@@ -937,6 +1011,140 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
   })();
 
   // 사전예약 시작: 2026-07-28 00:00 KST
+  // 시티마켓 연동 실시간 가격 카드
+  (function(){
+    var root=document.getElementById('live-price-showcase');
+    if(!root) return;
+    var grid=document.getElementById('live-price-grid');
+    var stateText=document.getElementById('live-price-state');
+    var updatedText=document.getElementById('live-price-updated');
+    var buttons=Array.prototype.slice.call(root.querySelectorAll('[data-current-carrier]'));
+    var modelDots=Array.prototype.slice.call(root.querySelectorAll('[data-live-index]'));
+    var modelPrev=root.querySelector('.live-price-prev');
+    var modelNext=root.querySelector('.live-price-next');
+    var selectedCarrier='SKT';
+    var selectedModelIndex=0;
+    var pricePayload=null;
+    var modelMeta={
+      flip8:{image:'assets/galaxy-z-flip8-official-cutout.webp',alt:'갤럭시 Z 플립 8'},
+      fold8:{image:'assets/galaxy-z-fold8-official-cutout.webp',alt:'갤럭시 Z 폴드 8'},
+      ultra:{image:'assets/galaxy-z-fold8-ultra-official-cutout.webp',alt:'갤럭시 Z 폴드 8 울트라'}
+    };
+    function fallbackOffer(carrier,activationType,purchasePrice,retailPrice){
+      if(purchasePrice===null) return {carrier:carrier,activationType:activationType,status:'혜택 준비중'};
+      return {carrier:carrier,activationType:activationType,purchasePrice:purchasePrice,retailPrice:retailPrice,discountRate:Math.round((retailPrice-purchasePrice)/retailPrice*100),applyUrl:'https://citymarket.co.kr/pb',status:'판매중'};
+    }
+    function fallbackModel(name,retailPrice,offers){return {name:name,retailPrice:retailPrice,offers:offers};}
+    function fallbackState(currentCarrier,flipPrices,foldPrices,ultraPrices){
+      function offers(prices,retail){
+        return [
+          fallbackOffer('SKT',currentCarrier==='SKT'?'기기변경':'번호이동',prices[0],retail),
+          fallbackOffer('KT',currentCarrier==='KT'?'기기변경':'번호이동',prices[1],retail),
+          fallbackOffer('LG U+',currentCarrier==='LG'?'기기변경':'번호이동',prices[2],retail)
+        ];
+      }
+      return {models:{
+        flip8:fallbackModel('갤럭시 Z 플립 8',1683000,offers(flipPrices,1683000)),
+        fold8:fallbackModel('갤럭시 Z 폴드 8',2278100,offers(foldPrices,2278100)),
+        ultra:fallbackModel('갤럭시 Z 폴드 8 울트라',2577300,offers(ultraPrices,2577300))
+      }};
+    }
+    var fallbackPrices={
+      updatedAt:'2026-07-29T06:00:21.839Z',
+      states:{
+        SKT:fallbackState('SKT',[783000,733000,null],[1378100,1328100,null],[1677300,1627300,null]),
+        KT:fallbackState('KT',[713000,783000,null],[1308100,1378100,null],[1607300,1677300,null]),
+        LG:fallbackState('LG',[713000,733000,null],[1308100,1328100,null],[1607300,1627300,null]),
+        '알뜰폰':fallbackState('알뜰폰',[713000,733000,null],[1308100,1328100,null],[1607300,1627300,null])
+      }
+    };
+    pricePayload=fallbackPrices;
+
+    function money(value){return Number(value||0).toLocaleString('ko-KR')+'원';}
+    function carrierClass(name){return String(name||'').toLowerCase().replace(/[^a-z]+/g,'-').replace(/^-|-$/g,'')||'lg-u';}
+    function carrierMark(name){if(name==='LG U+') return 'U+';return name;}
+    function formatUpdated(value){
+      if(!value) return '';
+      var date=new Date(value);
+      if(isNaN(date.getTime())) return '';
+      return new Intl.DateTimeFormat('ko-KR',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'Asia/Seoul'}).format(date)+' 기준';
+    }
+    function render(){
+      var state=pricePayload&&pricePayload.states&&pricePayload.states[selectedCarrier];
+      if(!state){
+        grid.innerHTML='<div class="live-price-card selected"><div class="live-model-top"><h4>선택한 통신사의 가격을 준비 중입니다.</h4></div></div>';
+        stateText.textContent='가격 준비중';
+        return;
+      }
+      var keys=['ultra','fold8','flip8'];
+      grid.innerHTML=keys.map(function(key){
+        var model=state.models[key];
+        var meta=modelMeta[key];
+        var offers=(model.offers||[]).slice().sort(function(a,b){
+          var aReady=a.status==='판매중'?0:2;
+          var bReady=b.status==='판매중'?0:2;
+          if(aReady!==bReady) return aReady-bReady;
+          if(a.activationType!==b.activationType) return a.activationType==='번호이동'?-1:1;
+          return 0;
+        });
+        var rows=offers.map(function(offer){
+          var ready=offer.status==='판매중'&&Number.isFinite(Number(offer.purchasePrice));
+          var tag=ready?'a':'div';
+          var linkAttrs=ready?' href="'+(offer.applyUrl||'https://citymarket.co.kr/pb')+'" target="_blank" rel="noopener noreferrer" aria-label="'+model.name+' '+offer.carrier+' '+offer.activationType+' '+money(offer.purchasePrice)+' 상세 견적 보기"':'';
+          return '<'+tag+' class="live-offer"'+linkAttrs+'>'+
+            '<span class="carrier-logo-text '+carrierClass(offer.carrier)+'">'+carrierMark(offer.carrier)+'</span>'+
+            (ready?'<div class="live-offer-main"><small>'+offer.activationType+'</small><div class="live-offer-price"><span class="live-offer-rate">'+offer.discountRate+'%</span>'+money(offer.purchasePrice)+'</div><span class="live-offer-retail">'+money(offer.retailPrice||model.retailPrice)+'</span></div><span class="live-offer-arrow">›</span>':'<div class="live-offer-main"><small>'+offer.activationType+'</small><span class="live-offer-state">'+(offer.status||'혜택 준비중')+'</span></div><span></span>')+
+          '</'+tag+'>';
+        }).join('');
+        return '<article class="live-price-card" data-live-model="'+key+'">'+
+          '<div class="live-model-top"><img src="'+meta.image+'" alt="'+meta.alt+'" loading="lazy" decoding="async"><h4>'+model.name+'</h4></div>'+
+          '<div class="live-offers">'+rows+'</div>'+
+          '<a class="live-price-cta" href="https://pf.kakao.com/_hZPcG/chat" target="_blank" rel="noopener noreferrer" data-cta-location="live_price_'+key+'">지금 사전예약 신청하기</a>'+
+        '</article>';
+      }).join('');
+      selectLiveModel(selectedModelIndex);
+      stateText.textContent='실시간 가격 연동 중';
+      updatedText.textContent=formatUpdated(pricePayload.updatedAt);
+    }
+    function selectLiveModel(index){
+      var cards=Array.prototype.slice.call(grid.querySelectorAll('.live-price-card'));
+      if(!cards.length) return;
+      selectedModelIndex=(index+cards.length)%cards.length;
+      cards.forEach(function(card,i){card.classList.toggle('selected',i===selectedModelIndex);});
+      modelDots.forEach(function(dot,i){dot.classList.toggle('selected',i===selectedModelIndex);dot.setAttribute('aria-pressed',i===selectedModelIndex?'true':'false');});
+    }
+    function loadPrices(){
+      fetch('prices.json?v='+Date.now(),{cache:'no-store'})
+        .then(function(response){if(!response.ok) throw new Error('HTTP '+response.status);return response.json();})
+        .then(function(payload){pricePayload=payload;render();})
+        .catch(function(){
+          if(!pricePayload){stateText.textContent='가격 정보를 불러오지 못했습니다';updatedText.textContent='잠시 후 다시 확인해 주세요';}
+          else{stateText.textContent='';updatedText.textContent=formatUpdated(pricePayload.updatedAt);}
+        });
+    }
+    buttons.forEach(function(button){
+      button.addEventListener('click',function(){
+        selectedCarrier=button.getAttribute('data-current-carrier');
+        buttons.forEach(function(item){var on=item===button;item.classList.toggle('selected',on);item.setAttribute('aria-pressed',on?'true':'false');});
+        render();
+      });
+    });
+    modelDots.forEach(function(dot){dot.addEventListener('click',function(){selectLiveModel(Number(dot.getAttribute('data-live-index'))||0);});});
+    if(modelPrev) modelPrev.addEventListener('click',function(){selectLiveModel(selectedModelIndex-1);});
+    if(modelNext) modelNext.addEventListener('click',function(){selectLiveModel(selectedModelIndex+1);});
+    var touchStartX=0;
+    grid.addEventListener('touchstart',function(event){touchStartX=event.changedTouches[0].clientX;},{passive:true});
+    grid.addEventListener('touchend',function(event){
+      var distance=event.changedTouches[0].clientX-touchStartX;
+      if(Math.abs(distance)<45) return;
+      selectLiveModel(distance<0?selectedModelIndex+1:selectedModelIndex-1);
+    },{passive:true});
+    render();
+    stateText.textContent='';
+    loadPrices();
+    setInterval(loadPrices,60000);
+  })();
+
   var UNPACK = new Date('2026-07-28T00:00:00+09:00');
 
   // D-day 배지 (히어로에 #dday 요소가 있을 때만)

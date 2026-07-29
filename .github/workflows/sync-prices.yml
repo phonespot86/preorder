@@ -1,0 +1,35 @@
+name: Sync Citymarket prices
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/5 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: citymarket-price-sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Fetch latest prices
+        run: node scripts/sync-city-prices.mjs
+      - name: Commit changed prices
+        run: |
+          if git diff --quiet -- prices.json; then
+            echo "No price changes"
+            exit 0
+          fi
+          git config user.name "phonespot-price-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add prices.json
+          git commit -m "Update live Fold8 prices"
+          git push

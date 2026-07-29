@@ -1,0 +1,418 @@
+{
+  "source": "https://citymarket.co.kr/pb",
+  "updatedAt": "2026-07-29T06:16:53.557Z",
+  "states": {
+    "SKT": {
+      "models": {
+        "flip8": {
+          "name": "갤럭시 Z 플립 8",
+          "retailPrice": 1683000,
+          "offers": [
+            {
+              "carrier": "SKT",
+              "activationType": "기기변경",
+              "purchasePrice": 783000,
+              "retailPrice": 1683000,
+              "discountRate": 53,
+              "planName": "베스트 109(T 우주)",
+              "fee": 109000,
+              "applyUrl": "https://citymarket.co.kr/applyInquiry?uri=pb&fee=109000&route=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&sellChannel=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&agency=FM&section=%EC%98%A8%EB%9D%BC%EC%9D%B8&model=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%94%8C%EB%A6%BD+8&modelBase=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%94%8C%EB%A6%BD+8&capacity=&modelName=SM-F776N&price=1683000&supply=500000&addSupply=200000&discount=200000&purchasePrice=783000&plan=%EB%B2%A0%EC%8A%A4%ED%8A%B8+109%28T+%EC%9A%B0%EC%A3%BC%29&planName=%EB%B2%A0%EC%8A%A4%ED%8A%B8+109%28T+%EC%9A%B0%EC%A3%BC%29&imgSrc=https%3A%2F%2Fqwer123.co.kr%2Fimage%2F20260728112735%ED%94%8C%EB%A6%BD8.png&openingType=%EA%B8%B0%EA%B8%B0%EB%B3%80%EA%B2%BD&company=SKT&historyCompany=SKT&saleInfo=%EA%B3%B5%EC%8B%9C%EC%A7%80%EC%9B%90%EA%B8%88&producer=&series_name=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z8&group_name=%EA%B0%A4%EB%9F%AD%EC%8B%9CZ+%ED%94%8C%EB%A6%BD8",
+              "status": "판매중"
+            },
+            {
+              "carrier": "KT",
+              "activationType": "번호이동",
+              "purchasePrice": 733000,
+              "retailPrice": 1683000,
+              "discountRate": 56,
+              "planName": "초이스110 넷플릭스",
+              "fee": 110000,
+              "applyUrl": "https://citymarket.co.kr/applyInquiry?uri=pb&fee=110000&route=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&sellChannel=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&agency=%EB%94%94%EC%9B%90&section=%EC%98%A8%EB%9D%BC%EC%9D%B8&model=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%94%8C%EB%A6%BD+8&modelBase=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%94%8C%EB%A6%BD+8&capacity=&modelName=SM-F776NK&price=1683000&supply=500000&addSupply=200000&discount=250000&purchasePrice=733000&plan=%EC%B4%88%EC%9D%B4%EC%8A%A4110+%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&planName=%EC%B4%88%EC%9D%B4%EC%8A%A4110+%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&imgSrc=https%3A%2F%2Fqwer123.co.kr%2Fimage%2F20260728112735%ED%94%8C%EB%A6%BD8.png&openingType=%EB%B2%88%ED%98%B8%EC%9D%B4%EB%8F%99&company=KT&historyCompany=SKT&saleInfo=%EA%B3%B5%EC%8B%9C%EC%A7%80%EC%9B%90%EA%B8%88&producer=&series_name=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z8&group_name=%EA%B0%A4%EB%9F%AD%EC%8B%9CZ+%ED%94%8C%EB%A6%BD8",
+              "status": "판매중"
+            },
+            {
+              "carrier": "LG U+",
+              "activationType": "번호이동",
+              "status": "혜택 준비중"
+            }
+          ]
+        },
+        "fold8": {
+          "name": "갤럭시 Z 폴드 8",
+          "retailPrice": 2278100,
+          "offers": [
+            {
+              "carrier": "SKT",
+              "activationType": "기기변경",
+              "purchasePrice": 1378100,
+              "retailPrice": 2278100,
+              "discountRate": 40,
+              "planName": "베스트 109(T 우주)",
+              "fee": 109000,
+              "applyUrl": "https://citymarket.co.kr/applyInquiry?uri=pb&fee=109000&route=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&sellChannel=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&agency=FM&section=%EC%98%A8%EB%9D%BC%EC%9D%B8&model=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C8&modelBase=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C8&capacity=&modelName=SM-F971N&price=2278100&supply=500000&addSupply=200000&discount=200000&purchasePrice=1378100&plan=%EB%B2%A0%EC%8A%A4%ED%8A%B8+109%28T+%EC%9A%B0%EC%A3%BC%29&planName=%EB%B2%A0%EC%8A%A4%ED%8A%B8+109%28T+%EC%9A%B0%EC%A3%BC%29&imgSrc=https%3A%2F%2Fqwer123.co.kr%2Fimage%2F20260728112932%ED%8F%B4%EB%93%9C8.png&openingType=%EA%B8%B0%EA%B8%B0%EB%B3%80%EA%B2%BD&company=SKT&historyCompany=SKT&saleInfo=%EA%B3%B5%EC%8B%9C%EC%A7%80%EC%9B%90%EA%B8%88&producer=&series_name=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z8&group_name=%EA%B0%A4%EB%9F%AD%EC%8B%9CZ+%ED%8F%B4%EB%93%9C8",
+              "status": "판매중"
+            },
+            {
+              "carrier": "KT",
+              "activationType": "번호이동",
+              "purchasePrice": 1328100,
+              "retailPrice": 2278100,
+              "discountRate": 42,
+              "planName": "초이스110 넷플릭스",
+              "fee": 110000,
+              "applyUrl": "https://citymarket.co.kr/applyInquiry?uri=pb&fee=110000&route=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&sellChannel=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&agency=%EB%94%94%EC%9B%90&section=%EC%98%A8%EB%9D%BC%EC%9D%B8&model=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C8&modelBase=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C8&capacity=&modelName=SM-F971NK&price=2278100&supply=500000&addSupply=200000&discount=250000&purchasePrice=1328100&plan=%EC%B4%88%EC%9D%B4%EC%8A%A4110+%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&planName=%EC%B4%88%EC%9D%B4%EC%8A%A4110+%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&imgSrc=https%3A%2F%2Fqwer123.co.kr%2Fimage%2F20260728112932%ED%8F%B4%EB%93%9C8.png&openingType=%EB%B2%88%ED%98%B8%EC%9D%B4%EB%8F%99&company=KT&historyCompany=SKT&saleInfo=%EA%B3%B5%EC%8B%9C%EC%A7%80%EC%9B%90%EA%B8%88&producer=&series_name=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z8&group_name=%EA%B0%A4%EB%9F%AD%EC%8B%9CZ+%ED%8F%B4%EB%93%9C8",
+              "status": "판매중"
+            },
+            {
+              "carrier": "LG U+",
+              "activationType": "번호이동",
+              "status": "혜택 준비중"
+            }
+          ]
+        },
+        "ultra": {
+          "name": "갤럭시 Z 폴드 8 울트라",
+          "retailPrice": 2577300,
+          "offers": [
+            {
+              "carrier": "SKT",
+              "activationType": "기기변경",
+              "purchasePrice": 1677300,
+              "retailPrice": 2577300,
+              "discountRate": 35,
+              "planName": "베스트 109(T 우주)",
+              "fee": 109000,
+              "applyUrl": "https://citymarket.co.kr/applyInquiry?uri=pb&fee=109000&route=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&sellChannel=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&agency=FM&section=%EC%98%A8%EB%9D%BC%EC%9D%B8&model=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C+%EC%9A%B8%ED%8A%B8%EB%9D%BC&modelBase=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C+%EC%9A%B8%ED%8A%B8%EB%9D%BC&capacity=&modelName=SM-F976N&price=2577300&supply=500000&addSupply=200000&discount=200000&purchasePrice=1677300&plan=%EB%B2%A0%EC%8A%A4%ED%8A%B8+109%28T+%EC%9A%B0%EC%A3%BC%29&planName=%EB%B2%A0%EC%8A%A4%ED%8A%B8+109%28T+%EC%9A%B0%EC%A3%BC%29&imgSrc=https%3A%2F%2Fqwer123.co.kr%2Fimage%2F20260728112932%ED%8F%B4%EB%93%9C8%EC%9A%B8%ED%8A%B8%EB%9D%BC.png&openingType=%EA%B8%B0%EA%B8%B0%EB%B3%80%EA%B2%BD&company=SKT&historyCompany=SKT&saleInfo=%EA%B3%B5%EC%8B%9C%EC%A7%80%EC%9B%90%EA%B8%88&producer=&series_name=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z8&group_name=%EA%B0%A4%EB%9F%AD%EC%8B%9CZ+%ED%8F%B4%EB%93%9C8",
+              "status": "판매중"
+            },
+            {
+              "carrier": "KT",
+              "activationType": "번호이동",
+              "purchasePrice": 1627300,
+              "retailPrice": 2577300,
+              "discountRate": 37,
+              "planName": "초이스110 넷플릭스",
+              "fee": 110000,
+              "applyUrl": "https://citymarket.co.kr/applyInquiry?uri=pb&fee=110000&route=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&sellChannel=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&agency=%EB%94%94%EC%9B%90&section=%EC%98%A8%EB%9D%BC%EC%9D%B8&model=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C+%EC%9A%B8%ED%8A%B8%EB%9D%BC&modelBase=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C+%EC%9A%B8%ED%8A%B8%EB%9D%BC&capacity=&modelName=SM-F976NK&price=2577300&supply=500000&addSupply=200000&discount=250000&purchasePrice=1627300&plan=%EC%B4%88%EC%9D%B4%EC%8A%A4110+%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&planName=%EC%B4%88%EC%9D%B4%EC%8A%A4110+%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&imgSrc=https%3A%2F%2Fqwer123.co.kr%2Fimage%2F20260728112932%ED%8F%B4%EB%93%9C8%EC%9A%B8%ED%8A%B8%EB%9D%BC.png&openingType=%EB%B2%88%ED%98%B8%EC%9D%B4%EB%8F%99&company=KT&historyCompany=SKT&saleInfo=%EA%B3%B5%EC%8B%9C%EC%A7%80%EC%9B%90%EA%B8%88&producer=&series_name=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z8&group_name=%EA%B0%A4%EB%9F%AD%EC%8B%9CZ+%ED%8F%B4%EB%93%9C8",
+              "status": "판매중"
+            },
+            {
+              "carrier": "LG U+",
+              "activationType": "번호이동",
+              "status": "혜택 준비중"
+            }
+          ]
+        }
+      }
+    },
+    "KT": {
+      "models": {
+        "flip8": {
+          "name": "갤럭시 Z 플립 8",
+          "retailPrice": 1683000,
+          "offers": [
+            {
+              "carrier": "SKT",
+              "activationType": "번호이동",
+              "purchasePrice": 713000,
+              "retailPrice": 1683000,
+              "discountRate": 58,
+              "planName": "베스트 109(T 우주)",
+              "fee": 109000,
+              "applyUrl": "https://citymarket.co.kr/applyInquiry?uri=pb&fee=109000&route=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&sellChannel=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&agency=FM&section=%EC%98%A8%EB%9D%BC%EC%9D%B8&model=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%94%8C%EB%A6%BD+8&modelBase=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%94%8C%EB%A6%BD+8&capacity=&modelName=SM-F776N&price=1683000&supply=500000&addSupply=200000&discount=270000&purchasePrice=713000&plan=%EB%B2%A0%EC%8A%A4%ED%8A%B8+109%28T+%EC%9A%B0%EC%A3%BC%29&planName=%EB%B2%A0%EC%8A%A4%ED%8A%B8+109%28T+%EC%9A%B0%EC%A3%BC%29&imgSrc=https%3A%2F%2Fqwer123.co.kr%2Fimage%2F20260728112735%ED%94%8C%EB%A6%BD8.png&openingType=%EB%B2%88%ED%98%B8%EC%9D%B4%EB%8F%99&company=SKT&historyCompany=KT&saleInfo=%EA%B3%B5%EC%8B%9C%EC%A7%80%EC%9B%90%EA%B8%88&producer=&series_name=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z8&group_name=%EA%B0%A4%EB%9F%AD%EC%8B%9CZ+%ED%94%8C%EB%A6%BD8",
+              "status": "판매중"
+            },
+            {
+              "carrier": "KT",
+              "activationType": "기기변경",
+              "purchasePrice": 783000,
+              "retailPrice": 1683000,
+              "discountRate": 53,
+              "planName": "초이스110 넷플릭스",
+              "fee": 110000,
+              "applyUrl": "https://citymarket.co.kr/applyInquiry?uri=pb&fee=110000&route=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&sellChannel=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&agency=%EB%94%94%EC%9B%90&section=%EC%98%A8%EB%9D%BC%EC%9D%B8&model=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%94%8C%EB%A6%BD+8&modelBase=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%94%8C%EB%A6%BD+8&capacity=&modelName=SM-F776NK&price=1683000&supply=500000&addSupply=200000&discount=200000&purchasePrice=783000&plan=%EC%B4%88%EC%9D%B4%EC%8A%A4110+%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&planName=%EC%B4%88%EC%9D%B4%EC%8A%A4110+%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&imgSrc=https%3A%2F%2Fqwer123.co.kr%2Fimage%2F20260728112735%ED%94%8C%EB%A6%BD8.png&openingType=%EA%B8%B0%EA%B8%B0%EB%B3%80%EA%B2%BD&company=KT&historyCompany=KT&saleInfo=%EA%B3%B5%EC%8B%9C%EC%A7%80%EC%9B%90%EA%B8%88&producer=&series_name=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z8&group_name=%EA%B0%A4%EB%9F%AD%EC%8B%9CZ+%ED%94%8C%EB%A6%BD8",
+              "status": "판매중"
+            },
+            {
+              "carrier": "LG U+",
+              "activationType": "번호이동",
+              "status": "혜택 준비중"
+            }
+          ]
+        },
+        "fold8": {
+          "name": "갤럭시 Z 폴드 8",
+          "retailPrice": 2278100,
+          "offers": [
+            {
+              "carrier": "SKT",
+              "activationType": "번호이동",
+              "purchasePrice": 1308100,
+              "retailPrice": 2278100,
+              "discountRate": 43,
+              "planName": "베스트 109(T 우주)",
+              "fee": 109000,
+              "applyUrl": "https://citymarket.co.kr/applyInquiry?uri=pb&fee=109000&route=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&sellChannel=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&agency=FM&section=%EC%98%A8%EB%9D%BC%EC%9D%B8&model=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C8&modelBase=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C8&capacity=&modelName=SM-F971N&price=2278100&supply=500000&addSupply=200000&discount=270000&purchasePrice=1308100&plan=%EB%B2%A0%EC%8A%A4%ED%8A%B8+109%28T+%EC%9A%B0%EC%A3%BC%29&planName=%EB%B2%A0%EC%8A%A4%ED%8A%B8+109%28T+%EC%9A%B0%EC%A3%BC%29&imgSrc=https%3A%2F%2Fqwer123.co.kr%2Fimage%2F20260728112932%ED%8F%B4%EB%93%9C8.png&openingType=%EB%B2%88%ED%98%B8%EC%9D%B4%EB%8F%99&company=SKT&historyCompany=KT&saleInfo=%EA%B3%B5%EC%8B%9C%EC%A7%80%EC%9B%90%EA%B8%88&producer=&series_name=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z8&group_name=%EA%B0%A4%EB%9F%AD%EC%8B%9CZ+%ED%8F%B4%EB%93%9C8",
+              "status": "판매중"
+            },
+            {
+              "carrier": "KT",
+              "activationType": "기기변경",
+              "purchasePrice": 1378100,
+              "retailPrice": 2278100,
+              "discountRate": 40,
+              "planName": "초이스110 넷플릭스",
+              "fee": 110000,
+              "applyUrl": "https://citymarket.co.kr/applyInquiry?uri=pb&fee=110000&route=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&sellChannel=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&agency=%EB%94%94%EC%9B%90&section=%EC%98%A8%EB%9D%BC%EC%9D%B8&model=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C8&modelBase=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C8&capacity=&modelName=SM-F971NK&price=2278100&supply=500000&addSupply=200000&discount=200000&purchasePrice=1378100&plan=%EC%B4%88%EC%9D%B4%EC%8A%A4110+%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&planName=%EC%B4%88%EC%9D%B4%EC%8A%A4110+%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&imgSrc=https%3A%2F%2Fqwer123.co.kr%2Fimage%2F20260728112932%ED%8F%B4%EB%93%9C8.png&openingType=%EA%B8%B0%EA%B8%B0%EB%B3%80%EA%B2%BD&company=KT&historyCompany=KT&saleInfo=%EA%B3%B5%EC%8B%9C%EC%A7%80%EC%9B%90%EA%B8%88&producer=&series_name=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z8&group_name=%EA%B0%A4%EB%9F%AD%EC%8B%9CZ+%ED%8F%B4%EB%93%9C8",
+              "status": "판매중"
+            },
+            {
+              "carrier": "LG U+",
+              "activationType": "번호이동",
+              "status": "혜택 준비중"
+            }
+          ]
+        },
+        "ultra": {
+          "name": "갤럭시 Z 폴드 8 울트라",
+          "retailPrice": 2577300,
+          "offers": [
+            {
+              "carrier": "SKT",
+              "activationType": "번호이동",
+              "purchasePrice": 1607300,
+              "retailPrice": 2577300,
+              "discountRate": 38,
+              "planName": "베스트 109(T 우주)",
+              "fee": 109000,
+              "applyUrl": "https://citymarket.co.kr/applyInquiry?uri=pb&fee=109000&route=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&sellChannel=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&agency=FM&section=%EC%98%A8%EB%9D%BC%EC%9D%B8&model=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C+%EC%9A%B8%ED%8A%B8%EB%9D%BC&modelBase=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C+%EC%9A%B8%ED%8A%B8%EB%9D%BC&capacity=&modelName=SM-F976N&price=2577300&supply=500000&addSupply=200000&discount=270000&purchasePrice=1607300&plan=%EB%B2%A0%EC%8A%A4%ED%8A%B8+109%28T+%EC%9A%B0%EC%A3%BC%29&planName=%EB%B2%A0%EC%8A%A4%ED%8A%B8+109%28T+%EC%9A%B0%EC%A3%BC%29&imgSrc=https%3A%2F%2Fqwer123.co.kr%2Fimage%2F20260728112932%ED%8F%B4%EB%93%9C8%EC%9A%B8%ED%8A%B8%EB%9D%BC.png&openingType=%EB%B2%88%ED%98%B8%EC%9D%B4%EB%8F%99&company=SKT&historyCompany=KT&saleInfo=%EA%B3%B5%EC%8B%9C%EC%A7%80%EC%9B%90%EA%B8%88&producer=&series_name=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z8&group_name=%EA%B0%A4%EB%9F%AD%EC%8B%9CZ+%ED%8F%B4%EB%93%9C8",
+              "status": "판매중"
+            },
+            {
+              "carrier": "KT",
+              "activationType": "기기변경",
+              "purchasePrice": 1677300,
+              "retailPrice": 2577300,
+              "discountRate": 35,
+              "planName": "초이스110 넷플릭스",
+              "fee": 110000,
+              "applyUrl": "https://citymarket.co.kr/applyInquiry?uri=pb&fee=110000&route=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&sellChannel=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&agency=%EB%94%94%EC%9B%90&section=%EC%98%A8%EB%9D%BC%EC%9D%B8&model=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C+%EC%9A%B8%ED%8A%B8%EB%9D%BC&modelBase=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C+%EC%9A%B8%ED%8A%B8%EB%9D%BC&capacity=&modelName=SM-F976NK&price=2577300&supply=500000&addSupply=200000&discount=200000&purchasePrice=1677300&plan=%EC%B4%88%EC%9D%B4%EC%8A%A4110+%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&planName=%EC%B4%88%EC%9D%B4%EC%8A%A4110+%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&imgSrc=https%3A%2F%2Fqwer123.co.kr%2Fimage%2F20260728112932%ED%8F%B4%EB%93%9C8%EC%9A%B8%ED%8A%B8%EB%9D%BC.png&openingType=%EA%B8%B0%EA%B8%B0%EB%B3%80%EA%B2%BD&company=KT&historyCompany=KT&saleInfo=%EA%B3%B5%EC%8B%9C%EC%A7%80%EC%9B%90%EA%B8%88&producer=&series_name=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z8&group_name=%EA%B0%A4%EB%9F%AD%EC%8B%9CZ+%ED%8F%B4%EB%93%9C8",
+              "status": "판매중"
+            },
+            {
+              "carrier": "LG U+",
+              "activationType": "번호이동",
+              "status": "혜택 준비중"
+            }
+          ]
+        }
+      }
+    },
+    "LG": {
+      "models": {
+        "flip8": {
+          "name": "갤럭시 Z 플립 8",
+          "retailPrice": 1683000,
+          "offers": [
+            {
+              "carrier": "SKT",
+              "activationType": "번호이동",
+              "purchasePrice": 713000,
+              "retailPrice": 1683000,
+              "discountRate": 58,
+              "planName": "베스트 109(T 우주)",
+              "fee": 109000,
+              "applyUrl": "https://citymarket.co.kr/applyInquiry?uri=pb&fee=109000&route=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&sellChannel=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&agency=FM&section=%EC%98%A8%EB%9D%BC%EC%9D%B8&model=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%94%8C%EB%A6%BD+8&modelBase=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%94%8C%EB%A6%BD+8&capacity=&modelName=SM-F776N&price=1683000&supply=500000&addSupply=200000&discount=270000&purchasePrice=713000&plan=%EB%B2%A0%EC%8A%A4%ED%8A%B8+109%28T+%EC%9A%B0%EC%A3%BC%29&planName=%EB%B2%A0%EC%8A%A4%ED%8A%B8+109%28T+%EC%9A%B0%EC%A3%BC%29&imgSrc=https%3A%2F%2Fqwer123.co.kr%2Fimage%2F20260728112735%ED%94%8C%EB%A6%BD8.png&openingType=%EB%B2%88%ED%98%B8%EC%9D%B4%EB%8F%99&company=SKT&historyCompany=LG&saleInfo=%EA%B3%B5%EC%8B%9C%EC%A7%80%EC%9B%90%EA%B8%88&producer=&series_name=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z8&group_name=%EA%B0%A4%EB%9F%AD%EC%8B%9CZ+%ED%94%8C%EB%A6%BD8",
+              "status": "판매중"
+            },
+            {
+              "carrier": "KT",
+              "activationType": "번호이동",
+              "purchasePrice": 733000,
+              "retailPrice": 1683000,
+              "discountRate": 56,
+              "planName": "초이스110 넷플릭스",
+              "fee": 110000,
+              "applyUrl": "https://citymarket.co.kr/applyInquiry?uri=pb&fee=110000&route=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&sellChannel=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&agency=%EB%94%94%EC%9B%90&section=%EC%98%A8%EB%9D%BC%EC%9D%B8&model=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%94%8C%EB%A6%BD+8&modelBase=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%94%8C%EB%A6%BD+8&capacity=&modelName=SM-F776NK&price=1683000&supply=500000&addSupply=200000&discount=250000&purchasePrice=733000&plan=%EC%B4%88%EC%9D%B4%EC%8A%A4110+%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&planName=%EC%B4%88%EC%9D%B4%EC%8A%A4110+%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&imgSrc=https%3A%2F%2Fqwer123.co.kr%2Fimage%2F20260728112735%ED%94%8C%EB%A6%BD8.png&openingType=%EB%B2%88%ED%98%B8%EC%9D%B4%EB%8F%99&company=KT&historyCompany=LG&saleInfo=%EA%B3%B5%EC%8B%9C%EC%A7%80%EC%9B%90%EA%B8%88&producer=&series_name=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z8&group_name=%EA%B0%A4%EB%9F%AD%EC%8B%9CZ+%ED%94%8C%EB%A6%BD8",
+              "status": "판매중"
+            },
+            {
+              "carrier": "LG U+",
+              "activationType": "기기변경",
+              "status": "혜택 준비중"
+            }
+          ]
+        },
+        "fold8": {
+          "name": "갤럭시 Z 폴드 8",
+          "retailPrice": 2278100,
+          "offers": [
+            {
+              "carrier": "SKT",
+              "activationType": "번호이동",
+              "purchasePrice": 1308100,
+              "retailPrice": 2278100,
+              "discountRate": 43,
+              "planName": "베스트 109(T 우주)",
+              "fee": 109000,
+              "applyUrl": "https://citymarket.co.kr/applyInquiry?uri=pb&fee=109000&route=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&sellChannel=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&agency=FM&section=%EC%98%A8%EB%9D%BC%EC%9D%B8&model=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C8&modelBase=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C8&capacity=&modelName=SM-F971N&price=2278100&supply=500000&addSupply=200000&discount=270000&purchasePrice=1308100&plan=%EB%B2%A0%EC%8A%A4%ED%8A%B8+109%28T+%EC%9A%B0%EC%A3%BC%29&planName=%EB%B2%A0%EC%8A%A4%ED%8A%B8+109%28T+%EC%9A%B0%EC%A3%BC%29&imgSrc=https%3A%2F%2Fqwer123.co.kr%2Fimage%2F20260728112932%ED%8F%B4%EB%93%9C8.png&openingType=%EB%B2%88%ED%98%B8%EC%9D%B4%EB%8F%99&company=SKT&historyCompany=LG&saleInfo=%EA%B3%B5%EC%8B%9C%EC%A7%80%EC%9B%90%EA%B8%88&producer=&series_name=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z8&group_name=%EA%B0%A4%EB%9F%AD%EC%8B%9CZ+%ED%8F%B4%EB%93%9C8",
+              "status": "판매중"
+            },
+            {
+              "carrier": "KT",
+              "activationType": "번호이동",
+              "purchasePrice": 1328100,
+              "retailPrice": 2278100,
+              "discountRate": 42,
+              "planName": "초이스110 넷플릭스",
+              "fee": 110000,
+              "applyUrl": "https://citymarket.co.kr/applyInquiry?uri=pb&fee=110000&route=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&sellChannel=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&agency=%EB%94%94%EC%9B%90&section=%EC%98%A8%EB%9D%BC%EC%9D%B8&model=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C8&modelBase=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C8&capacity=&modelName=SM-F971NK&price=2278100&supply=500000&addSupply=200000&discount=250000&purchasePrice=1328100&plan=%EC%B4%88%EC%9D%B4%EC%8A%A4110+%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&planName=%EC%B4%88%EC%9D%B4%EC%8A%A4110+%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&imgSrc=https%3A%2F%2Fqwer123.co.kr%2Fimage%2F20260728112932%ED%8F%B4%EB%93%9C8.png&openingType=%EB%B2%88%ED%98%B8%EC%9D%B4%EB%8F%99&company=KT&historyCompany=LG&saleInfo=%EA%B3%B5%EC%8B%9C%EC%A7%80%EC%9B%90%EA%B8%88&producer=&series_name=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z8&group_name=%EA%B0%A4%EB%9F%AD%EC%8B%9CZ+%ED%8F%B4%EB%93%9C8",
+              "status": "판매중"
+            },
+            {
+              "carrier": "LG U+",
+              "activationType": "기기변경",
+              "status": "혜택 준비중"
+            }
+          ]
+        },
+        "ultra": {
+          "name": "갤럭시 Z 폴드 8 울트라",
+          "retailPrice": 2577300,
+          "offers": [
+            {
+              "carrier": "SKT",
+              "activationType": "번호이동",
+              "purchasePrice": 1607300,
+              "retailPrice": 2577300,
+              "discountRate": 38,
+              "planName": "베스트 109(T 우주)",
+              "fee": 109000,
+              "applyUrl": "https://citymarket.co.kr/applyInquiry?uri=pb&fee=109000&route=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&sellChannel=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&agency=FM&section=%EC%98%A8%EB%9D%BC%EC%9D%B8&model=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C+%EC%9A%B8%ED%8A%B8%EB%9D%BC&modelBase=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C+%EC%9A%B8%ED%8A%B8%EB%9D%BC&capacity=&modelName=SM-F976N&price=2577300&supply=500000&addSupply=200000&discount=270000&purchasePrice=1607300&plan=%EB%B2%A0%EC%8A%A4%ED%8A%B8+109%28T+%EC%9A%B0%EC%A3%BC%29&planName=%EB%B2%A0%EC%8A%A4%ED%8A%B8+109%28T+%EC%9A%B0%EC%A3%BC%29&imgSrc=https%3A%2F%2Fqwer123.co.kr%2Fimage%2F20260728112932%ED%8F%B4%EB%93%9C8%EC%9A%B8%ED%8A%B8%EB%9D%BC.png&openingType=%EB%B2%88%ED%98%B8%EC%9D%B4%EB%8F%99&company=SKT&historyCompany=LG&saleInfo=%EA%B3%B5%EC%8B%9C%EC%A7%80%EC%9B%90%EA%B8%88&producer=&series_name=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z8&group_name=%EA%B0%A4%EB%9F%AD%EC%8B%9CZ+%ED%8F%B4%EB%93%9C8",
+              "status": "판매중"
+            },
+            {
+              "carrier": "KT",
+              "activationType": "번호이동",
+              "purchasePrice": 1627300,
+              "retailPrice": 2577300,
+              "discountRate": 37,
+              "planName": "초이스110 넷플릭스",
+              "fee": 110000,
+              "applyUrl": "https://citymarket.co.kr/applyInquiry?uri=pb&fee=110000&route=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&sellChannel=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&agency=%EB%94%94%EC%9B%90&section=%EC%98%A8%EB%9D%BC%EC%9D%B8&model=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C+%EC%9A%B8%ED%8A%B8%EB%9D%BC&modelBase=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C+%EC%9A%B8%ED%8A%B8%EB%9D%BC&capacity=&modelName=SM-F976NK&price=2577300&supply=500000&addSupply=200000&discount=250000&purchasePrice=1627300&plan=%EC%B4%88%EC%9D%B4%EC%8A%A4110+%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&planName=%EC%B4%88%EC%9D%B4%EC%8A%A4110+%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&imgSrc=https%3A%2F%2Fqwer123.co.kr%2Fimage%2F20260728112932%ED%8F%B4%EB%93%9C8%EC%9A%B8%ED%8A%B8%EB%9D%BC.png&openingType=%EB%B2%88%ED%98%B8%EC%9D%B4%EB%8F%99&company=KT&historyCompany=LG&saleInfo=%EA%B3%B5%EC%8B%9C%EC%A7%80%EC%9B%90%EA%B8%88&producer=&series_name=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z8&group_name=%EA%B0%A4%EB%9F%AD%EC%8B%9CZ+%ED%8F%B4%EB%93%9C8",
+              "status": "판매중"
+            },
+            {
+              "carrier": "LG U+",
+              "activationType": "기기변경",
+              "status": "혜택 준비중"
+            }
+          ]
+        }
+      }
+    },
+    "알뜰폰": {
+      "models": {
+        "flip8": {
+          "name": "갤럭시 Z 플립 8",
+          "retailPrice": 1683000,
+          "offers": [
+            {
+              "carrier": "SKT",
+              "activationType": "번호이동",
+              "purchasePrice": 713000,
+              "retailPrice": 1683000,
+              "discountRate": 58,
+              "planName": "베스트 109(T 우주)",
+              "fee": 109000,
+              "applyUrl": "https://citymarket.co.kr/applyInquiry?uri=pb&fee=109000&route=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&sellChannel=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&agency=FM&section=%EC%98%A8%EB%9D%BC%EC%9D%B8&model=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%94%8C%EB%A6%BD+8&modelBase=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%94%8C%EB%A6%BD+8&capacity=&modelName=SM-F776N&price=1683000&supply=500000&addSupply=200000&discount=270000&purchasePrice=713000&plan=%EB%B2%A0%EC%8A%A4%ED%8A%B8+109%28T+%EC%9A%B0%EC%A3%BC%29&planName=%EB%B2%A0%EC%8A%A4%ED%8A%B8+109%28T+%EC%9A%B0%EC%A3%BC%29&imgSrc=https%3A%2F%2Fqwer123.co.kr%2Fimage%2F20260728112735%ED%94%8C%EB%A6%BD8.png&openingType=%EB%B2%88%ED%98%B8%EC%9D%B4%EB%8F%99&company=SKT&historyCompany=%EC%95%8C%EB%9C%B0%ED%8F%B0&saleInfo=%EA%B3%B5%EC%8B%9C%EC%A7%80%EC%9B%90%EA%B8%88&producer=&series_name=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z8&group_name=%EA%B0%A4%EB%9F%AD%EC%8B%9CZ+%ED%94%8C%EB%A6%BD8",
+              "status": "판매중"
+            },
+            {
+              "carrier": "KT",
+              "activationType": "번호이동",
+              "purchasePrice": 733000,
+              "retailPrice": 1683000,
+              "discountRate": 56,
+              "planName": "초이스110 넷플릭스",
+              "fee": 110000,
+              "applyUrl": "https://citymarket.co.kr/applyInquiry?uri=pb&fee=110000&route=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&sellChannel=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&agency=%EB%94%94%EC%9B%90&section=%EC%98%A8%EB%9D%BC%EC%9D%B8&model=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%94%8C%EB%A6%BD+8&modelBase=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%94%8C%EB%A6%BD+8&capacity=&modelName=SM-F776NK&price=1683000&supply=500000&addSupply=200000&discount=250000&purchasePrice=733000&plan=%EC%B4%88%EC%9D%B4%EC%8A%A4110+%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&planName=%EC%B4%88%EC%9D%B4%EC%8A%A4110+%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&imgSrc=https%3A%2F%2Fqwer123.co.kr%2Fimage%2F20260728112735%ED%94%8C%EB%A6%BD8.png&openingType=%EB%B2%88%ED%98%B8%EC%9D%B4%EB%8F%99&company=KT&historyCompany=%EC%95%8C%EB%9C%B0%ED%8F%B0&saleInfo=%EA%B3%B5%EC%8B%9C%EC%A7%80%EC%9B%90%EA%B8%88&producer=&series_name=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z8&group_name=%EA%B0%A4%EB%9F%AD%EC%8B%9CZ+%ED%94%8C%EB%A6%BD8",
+              "status": "판매중"
+            },
+            {
+              "carrier": "LG U+",
+              "activationType": "번호이동",
+              "status": "혜택 준비중"
+            }
+          ]
+        },
+        "fold8": {
+          "name": "갤럭시 Z 폴드 8",
+          "retailPrice": 2278100,
+          "offers": [
+            {
+              "carrier": "SKT",
+              "activationType": "번호이동",
+              "purchasePrice": 1308100,
+              "retailPrice": 2278100,
+              "discountRate": 43,
+              "planName": "베스트 109(T 우주)",
+              "fee": 109000,
+              "applyUrl": "https://citymarket.co.kr/applyInquiry?uri=pb&fee=109000&route=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&sellChannel=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&agency=FM&section=%EC%98%A8%EB%9D%BC%EC%9D%B8&model=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C8&modelBase=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C8&capacity=&modelName=SM-F971N&price=2278100&supply=500000&addSupply=200000&discount=270000&purchasePrice=1308100&plan=%EB%B2%A0%EC%8A%A4%ED%8A%B8+109%28T+%EC%9A%B0%EC%A3%BC%29&planName=%EB%B2%A0%EC%8A%A4%ED%8A%B8+109%28T+%EC%9A%B0%EC%A3%BC%29&imgSrc=https%3A%2F%2Fqwer123.co.kr%2Fimage%2F20260728112932%ED%8F%B4%EB%93%9C8.png&openingType=%EB%B2%88%ED%98%B8%EC%9D%B4%EB%8F%99&company=SKT&historyCompany=%EC%95%8C%EB%9C%B0%ED%8F%B0&saleInfo=%EA%B3%B5%EC%8B%9C%EC%A7%80%EC%9B%90%EA%B8%88&producer=&series_name=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z8&group_name=%EA%B0%A4%EB%9F%AD%EC%8B%9CZ+%ED%8F%B4%EB%93%9C8",
+              "status": "판매중"
+            },
+            {
+              "carrier": "KT",
+              "activationType": "번호이동",
+              "purchasePrice": 1328100,
+              "retailPrice": 2278100,
+              "discountRate": 42,
+              "planName": "초이스110 넷플릭스",
+              "fee": 110000,
+              "applyUrl": "https://citymarket.co.kr/applyInquiry?uri=pb&fee=110000&route=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&sellChannel=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&agency=%EB%94%94%EC%9B%90&section=%EC%98%A8%EB%9D%BC%EC%9D%B8&model=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C8&modelBase=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C8&capacity=&modelName=SM-F971NK&price=2278100&supply=500000&addSupply=200000&discount=250000&purchasePrice=1328100&plan=%EC%B4%88%EC%9D%B4%EC%8A%A4110+%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&planName=%EC%B4%88%EC%9D%B4%EC%8A%A4110+%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&imgSrc=https%3A%2F%2Fqwer123.co.kr%2Fimage%2F20260728112932%ED%8F%B4%EB%93%9C8.png&openingType=%EB%B2%88%ED%98%B8%EC%9D%B4%EB%8F%99&company=KT&historyCompany=%EC%95%8C%EB%9C%B0%ED%8F%B0&saleInfo=%EA%B3%B5%EC%8B%9C%EC%A7%80%EC%9B%90%EA%B8%88&producer=&series_name=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z8&group_name=%EA%B0%A4%EB%9F%AD%EC%8B%9CZ+%ED%8F%B4%EB%93%9C8",
+              "status": "판매중"
+            },
+            {
+              "carrier": "LG U+",
+              "activationType": "번호이동",
+              "status": "혜택 준비중"
+            }
+          ]
+        },
+        "ultra": {
+          "name": "갤럭시 Z 폴드 8 울트라",
+          "retailPrice": 2577300,
+          "offers": [
+            {
+              "carrier": "SKT",
+              "activationType": "번호이동",
+              "purchasePrice": 1607300,
+              "retailPrice": 2577300,
+              "discountRate": 38,
+              "planName": "베스트 109(T 우주)",
+              "fee": 109000,
+              "applyUrl": "https://citymarket.co.kr/applyInquiry?uri=pb&fee=109000&route=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&sellChannel=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&agency=FM&section=%EC%98%A8%EB%9D%BC%EC%9D%B8&model=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C+%EC%9A%B8%ED%8A%B8%EB%9D%BC&modelBase=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C+%EC%9A%B8%ED%8A%B8%EB%9D%BC&capacity=&modelName=SM-F976N&price=2577300&supply=500000&addSupply=200000&discount=270000&purchasePrice=1607300&plan=%EB%B2%A0%EC%8A%A4%ED%8A%B8+109%28T+%EC%9A%B0%EC%A3%BC%29&planName=%EB%B2%A0%EC%8A%A4%ED%8A%B8+109%28T+%EC%9A%B0%EC%A3%BC%29&imgSrc=https%3A%2F%2Fqwer123.co.kr%2Fimage%2F20260728112932%ED%8F%B4%EB%93%9C8%EC%9A%B8%ED%8A%B8%EB%9D%BC.png&openingType=%EB%B2%88%ED%98%B8%EC%9D%B4%EB%8F%99&company=SKT&historyCompany=%EC%95%8C%EB%9C%B0%ED%8F%B0&saleInfo=%EA%B3%B5%EC%8B%9C%EC%A7%80%EC%9B%90%EA%B8%88&producer=&series_name=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z8&group_name=%EA%B0%A4%EB%9F%AD%EC%8B%9CZ+%ED%8F%B4%EB%93%9C8",
+              "status": "판매중"
+            },
+            {
+              "carrier": "KT",
+              "activationType": "번호이동",
+              "purchasePrice": 1627300,
+              "retailPrice": 2577300,
+              "discountRate": 37,
+              "planName": "초이스110 넷플릭스",
+              "fee": 110000,
+              "applyUrl": "https://citymarket.co.kr/applyInquiry?uri=pb&fee=110000&route=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&sellChannel=%ED%8F%B0%EC%8A%A4%ED%8C%9F%EB%B3%B8%EC%A0%90&agency=%EB%94%94%EC%9B%90&section=%EC%98%A8%EB%9D%BC%EC%9D%B8&model=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C+%EC%9A%B8%ED%8A%B8%EB%9D%BC&modelBase=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z%ED%8F%B4%EB%93%9C+%EC%9A%B8%ED%8A%B8%EB%9D%BC&capacity=&modelName=SM-F976NK&price=2577300&supply=500000&addSupply=200000&discount=250000&purchasePrice=1627300&plan=%EC%B4%88%EC%9D%B4%EC%8A%A4110+%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&planName=%EC%B4%88%EC%9D%B4%EC%8A%A4110+%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&imgSrc=https%3A%2F%2Fqwer123.co.kr%2Fimage%2F20260728112932%ED%8F%B4%EB%93%9C8%EC%9A%B8%ED%8A%B8%EB%9D%BC.png&openingType=%EB%B2%88%ED%98%B8%EC%9D%B4%EB%8F%99&company=KT&historyCompany=%EC%95%8C%EB%9C%B0%ED%8F%B0&saleInfo=%EA%B3%B5%EC%8B%9C%EC%A7%80%EC%9B%90%EA%B8%88&producer=&series_name=%EA%B0%A4%EB%9F%AD%EC%8B%9C+Z8&group_name=%EA%B0%A4%EB%9F%AD%EC%8B%9CZ+%ED%8F%B4%EB%93%9C8",
+              "status": "판매중"
+            },
+            {
+              "carrier": "LG U+",
+              "activationType": "번호이동",
+              "status": "혜택 준비중"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
