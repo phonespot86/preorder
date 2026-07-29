@@ -3,7 +3,7 @@ name: Sync Citymarket prices
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '17 * * * *'
 
 permissions:
   contents: write

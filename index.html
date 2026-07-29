@@ -507,6 +507,7 @@ fbq('track', 'PageView');
   .live-price-status strong{color:#15803d;font-weight:800;}
   .live-price-status strong:empty{display:none;}
   .live-price-status strong::before{content:'';display:inline-block;width:7px;height:7px;margin-right:5px;border-radius:50%;background:#22c55e;vertical-align:1px;}
+  .live-price-update-note{margin:-7px 2px 15px;color:#718096;font-size:11px;line-height:1.45;}
   .live-price-grid{display:grid;gap:16px;}
   .live-price-card{display:none;overflow:hidden;border-radius:20px;background:#fff;box-shadow:0 4px 16px rgba(23,39,67,.12);}
   .live-price-card.selected{display:block;animation:livePriceCardIn .24s ease;}
@@ -663,10 +664,10 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
       </ul>
     </div>
     <div class="live-price-showcase" id="live-price-showcase">
-      <div class="cat-label"><span class="n">2</span>폰스팟 실시간 가격</div>
+      <div class="cat-label"><span class="n">2</span>폰스팟 가격 정보</div>
       <div class="live-price-head">
         <h3>나에게 맞는 폴더블 8 가격을 확인하세요.</h3>
-        <p>이용중인 통신사를 선택하면 통신사별 실시간 가격을 보여드려요.</p>
+        <p>이용중인 통신사를 선택하면 통신사별 최신 가격을 보여드려요.</p>
       </div>
       <div class="carrier-picker" aria-label="현재 이용 중인 통신사 선택">
         <span class="carrier-picker-label">현재 이용 중인 통신사</span>
@@ -678,9 +679,10 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
         </div>
       </div>
       <div class="live-price-status" aria-live="polite">
-        <strong id="live-price-state">최신 가격 불러오는 중</strong>
+        <strong id="live-price-state">가격 정보 자동 업데이트</strong>
         <span id="live-price-updated"></span>
       </div>
+      <p class="live-price-update-note">가격 정보는 약 1시간마다 업데이트됩니다.</p>
       <div class="live-price-grid" id="live-price-grid"></div>
       <div class="live-price-nav" aria-label="가격 확인 기종 선택">
         <button class="live-price-arrow live-price-prev" type="button" aria-label="이전 기종">&#8249;</button>
@@ -1092,7 +1094,7 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
         '</article>';
       }).join('');
       selectLiveModel(selectedModelIndex);
-      stateText.textContent='실시간 가격 연동 중';
+      stateText.textContent='가격 정보 자동 업데이트';
       updatedText.textContent=formatUpdated(pricePayload.updatedAt);
     }
     function selectLiveModel(index){
