@@ -665,8 +665,8 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
     <div class="live-price-showcase" id="live-price-showcase">
       <div class="cat-label"><span class="n">2</span>폰스팟 실시간 가격</div>
       <div class="live-price-head">
-        <h3>이용 중인 통신사에 맞는<br>폴더블 8 가격을 확인하세요</h3>
-        <p>현재 통신사를 선택하면 번호이동과 기기변경 가격을 함께 보여드립니다.</p>
+        <h3>나에게 맞는 폴더블 8 가격을 확인하세요.</h3>
+        <p>이용중인 통신사를 선택하면 통신사별 실시간 가격을 보여드려요.</p>
       </div>
       <div class="carrier-picker" aria-label="현재 이용 중인 통신사 선택">
         <span class="carrier-picker-label">현재 이용 중인 통신사</span>
@@ -1335,6 +1335,18 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
     document.addEventListener('click',function(event){
       var element=event.target.nodeType===1?event.target:event.target.parentElement;
       if(!element) return;
+      var citymarketLink=element.closest('a[href^="https://citymarket.co.kr/applyInquiry"]');
+      if(citymarketLink){
+        var priceCard=citymarketLink.closest('.live-price-card');
+        sendEvent('citymarket_click',{
+          model:priceCard?priceCard.getAttribute('data-live-model')||'':'',
+          carrier:(citymarketLink.querySelector('.carrier-logo-text')||{}).textContent||'',
+          activation_type:(citymarketLink.querySelector('.live-offer-main small')||{}).textContent||'',
+          displayed_price:(citymarketLink.querySelector('.live-offer-price')||{}).textContent||'',
+          destination_url:citymarketLink.href
+        });
+        return;
+      }
       var link=element.closest('a[href*="pf.kakao.com"]');
       if(link){
         var location='section';
