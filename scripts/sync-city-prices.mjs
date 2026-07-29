@@ -156,9 +156,9 @@ const result = {
   states
 };
 
+await fs.writeFile(OUTPUT, `${JSON.stringify(result, null, 2)}\n`, 'utf8');
 if (comparable !== previousComparable || !previous) {
-  await fs.writeFile(OUTPUT, `${JSON.stringify(result, null, 2)}\n`, 'utf8');
-  console.log(`가격 정보 갱신: ${result.updatedAt}`);
+  console.log(`가격 변동 반영: ${result.updatedAt}`);
 } else {
-  console.log('가격 변동 없음');
+  console.log(`가격 확인 완료: ${result.checkedAt}`);
 }
