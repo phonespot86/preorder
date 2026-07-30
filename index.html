@@ -148,7 +148,7 @@ fbq('track', 'PageView');
   .schedule-flow{background:var(--navy-card);border:1px solid rgba(61,139,255,.25);border-radius:20px;padding:22px 9px 19px;margin-top:18px;overflow:hidden;}
   .mini-cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:3px;}
   .cal-day{text-align:center;font-size:14px;font-weight:800;color:#aab7d8;padding-bottom:12px;border-bottom:1px solid rgba(120,145,200,.28);}
-  .cal-date{position:relative;min-height:68px;text-align:center;padding-top:10px;border-radius:9px;color:#f4f7ff;font-size:18px;font-weight:900;}
+  .cal-date{position:relative;min-height:84px;text-align:center;padding-top:12px;border-radius:9px;color:#f4f7ff;font-size:18px;font-weight:900;}
   .cal-date.dim{color:#414c70;}
   .cal-date.reserve{background:rgba(72,142,255,.2);}
   .cal-date.open-period{background:rgba(75,196,105,.16);}
@@ -158,6 +158,8 @@ fbq('track', 'PageView');
   .cal-date.green .mark{background:#34b653;box-shadow:0 0 12px rgba(52,182,83,.38);}
   .cal-date.red .mark{background:#ee3d49;box-shadow:0 0 12px rgba(238,61,73,.38);}
   .cal-date .event{display:block;margin-top:4px;font-size:11px;line-height:1.2;color:#b8cbff;font-weight:800;word-break:keep-all;letter-spacing:-.55px;}
+  .cal-date.today::after{content:"";position:absolute;z-index:2;top:4px;left:50%;width:42px;height:42px;border:2px solid #101b34;border-radius:50%;box-sizing:border-box;transform:translateX(-50%);pointer-events:none;}
+  .cal-date.today::before{content:"TODAY";position:absolute;left:50%;bottom:5px;transform:translateX(-50%);color:#101b34;font-size:9px;font-weight:900;line-height:1;letter-spacing:.4px;white-space:nowrap;}
   .cal-date.green .event{color:#8ee6a2;}.cal-date.red .event{color:#ffa1a7;}
   .cal-legend{display:flex;justify-content:center;gap:12px;margin-top:14px;font-size:12px;font-weight:700;color:#a5b0ce;}
   .cal-legend span::before{content:"";display:inline-block;width:7px;height:7px;border-radius:2px;margin-right:4px;background:#4c8eff;}
@@ -786,14 +788,14 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
 
   <!-- ⑥ 사전예약 일정 -->
   <section class="schedule-section">
-    <span class="sec-label">사전예약 일정 (예상)</span>
+    <span class="sec-label">사전예약 일정</span>
     <h2>한눈에 보는 사전예약 일정</h2>
     <div class="schedule-flow">
       <div class="mini-cal" aria-label="2026년 7월과 8월 사전예약 일정">
         <div class="cal-day">일</div><div class="cal-day">월</div><div class="cal-day">화</div><div class="cal-day">수</div><div class="cal-day">목</div><div class="cal-day">금</div><div class="cal-day">토</div>
-        <div class="cal-date dim"></div><div class="cal-date">20</div><div class="cal-date">21</div><div class="cal-date"><span class="mark">22</span><span class="event">언팩 22시</span></div><div class="cal-date">23</div><div class="cal-date">24</div><div class="cal-date">25</div>
-        <div class="cal-date">26</div><div class="cal-date">27</div><div class="cal-date reserve"><span class="mark">28</span><span class="event">예약 시작</span></div><div class="cal-date reserve">29</div><div class="cal-date reserve">30</div><div class="cal-date reserve">31</div><div class="cal-date reserve"><span class="month">8/</span>1</div>
-        <div class="cal-date reserve"><span class="month">8/</span>2</div><div class="cal-date reserve"><span class="month">8/</span>3</div><div class="cal-date open-period green"><span class="mark">4</span><span class="event">사전개통</span></div><div class="cal-date open-period">5</div><div class="cal-date open-period">6</div><div class="cal-date launch-period red"><span class="mark">7</span><span class="event">정식 출시</span></div><div class="cal-date dim">8</div>
+        <div class="cal-date dim"></div><div class="cal-date" data-date="2026-07-20">20</div><div class="cal-date" data-date="2026-07-21">21</div><div class="cal-date" data-date="2026-07-22"><span class="mark">22</span><span class="event">언팩 22시</span></div><div class="cal-date" data-date="2026-07-23">23</div><div class="cal-date" data-date="2026-07-24">24</div><div class="cal-date" data-date="2026-07-25">25</div>
+        <div class="cal-date" data-date="2026-07-26">26</div><div class="cal-date" data-date="2026-07-27">27</div><div class="cal-date reserve" data-date="2026-07-28"><span class="mark">28</span><span class="event">예약 시작</span></div><div class="cal-date reserve" data-date="2026-07-29">29</div><div class="cal-date reserve" data-date="2026-07-30">30</div><div class="cal-date reserve" data-date="2026-07-31">31</div><div class="cal-date reserve" data-date="2026-08-01"><span class="month">8/</span>1</div>
+        <div class="cal-date reserve" data-date="2026-08-02"><span class="month">8/</span>2</div><div class="cal-date reserve" data-date="2026-08-03"><span class="month">8/</span>3</div><div class="cal-date open-period green" data-date="2026-08-04"><span class="mark">4</span><span class="event">사전개통</span></div><div class="cal-date open-period" data-date="2026-08-05">5</div><div class="cal-date open-period" data-date="2026-08-06">6</div><div class="cal-date launch-period red" data-date="2026-08-07"><span class="mark">7</span><span class="event">정식 출시</span></div><div class="cal-date dim" data-date="2026-08-08">8</div>
       </div>
       <div class="cal-legend"><span>사전예약</span><span class="opening">사전개통</span><span class="launching">정식 출시</span></div>
       <p class="schedule-note">일정은 삼성전자 공식 발표에 따라 변경될 수 있습니다.</p>
@@ -880,6 +882,20 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
 </div>
 
 <script>
+  // 한국 시간 기준 오늘 날짜를 일정표에 자동 표시
+  (function(){
+    var parts=new Intl.DateTimeFormat('en-US',{timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
+    var values={};
+    parts.forEach(function(part){values[part.type]=part.value;});
+    var today=[values.year,values.month,values.day].join('-');
+    document.querySelectorAll('.cal-date[data-date]').forEach(function(cell){
+      if(cell.getAttribute('data-date')===today){
+        cell.classList.add('today');
+        cell.setAttribute('aria-current','date');
+      }
+    });
+  })();
+
   /*
    * 사전예약 정책 공개용 설정
    * 내일 아래 값만 채운 뒤 isOpen을 true로 바꾸면 가격·통신사 혜택·CTA가 함께 전환됩니다.
