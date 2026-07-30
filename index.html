@@ -570,16 +570,9 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
   <section class="lineup-section" id="lineup">
     <p class="sec-eyebrow">Coming Soon</p>
     <h2>Galaxy Z Fold 8 Series<br>미리 만나보세요</h2>
-    <p class="sub">라인업부터 확인하고, 소식을 가장 먼저 받아보세요.</p>
+    <p class="sub">나만의 갤럭시, 기기 스펙을 확인해보세요!</p>
     <div class="lineup-grid">
       <div class="lu-card selected">
-        <button class="lu-select" type="button" data-spec="flip8" aria-expanded="false" aria-controls="spec-stage">
-          <img class="lu-img lu-img-flip" src="assets/galaxy-z-flip8-official-cutout.webp" alt="갤럭시 Z 플립 8 핑크 제품 이미지">
-          <span class="lu-name">갤럭시 Z 플립 8</span>
-          <span class="lu-expand-hint" aria-hidden="true"></span>
-        </button>
-      </div>
-      <div class="lu-card">
         <button class="lu-select" type="button" data-spec="fold8" aria-expanded="false" aria-controls="spec-stage">
           <img class="lu-img lu-img-fold" src="assets/galaxy-z-fold8-official-cutout.webp" alt="갤럭시 Z 폴드 8 라벤더 제품 이미지">
           <span class="lu-name">갤럭시 Z 폴드 8</span>
@@ -593,13 +586,20 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
           <span class="lu-expand-hint" aria-hidden="true"></span>
         </button>
       </div>
+      <div class="lu-card">
+        <button class="lu-select" type="button" data-spec="flip8" aria-expanded="false" aria-controls="spec-stage">
+          <img class="lu-img lu-img-flip" src="assets/galaxy-z-flip8-official-cutout.webp" alt="갤럭시 Z 플립 8 핑크 제품 이미지">
+          <span class="lu-name">갤럭시 Z 플립 8</span>
+          <span class="lu-expand-hint" aria-hidden="true"></span>
+        </button>
+      </div>
     </div>
     <div class="lineup-nav" aria-label="기종 선택">
       <button class="lineup-arrow lineup-prev" type="button" aria-label="이전 기종">&#8249;</button>
       <div class="lineup-tabs">
-        <button class="lineup-tab selected" type="button" data-index="0" aria-label="갤럭시 Z 플립 8 선택"></button>
-        <button class="lineup-tab" type="button" data-index="1" aria-label="갤럭시 Z 폴드 8 선택"></button>
-        <button class="lineup-tab" type="button" data-index="2" aria-label="갤럭시 Z 폴드 8 울트라 선택"></button>
+        <button class="lineup-tab selected" type="button" data-index="0" aria-label="갤럭시 Z 폴드 8 선택"></button>
+        <button class="lineup-tab" type="button" data-index="1" aria-label="갤럭시 Z 폴드 8 울트라 선택"></button>
+        <button class="lineup-tab" type="button" data-index="2" aria-label="갤럭시 Z 플립 8 선택"></button>
       </div>
       <button class="lineup-arrow lineup-next" type="button" aria-label="다음 기종">&#8250;</button>
     </div>
@@ -685,8 +685,8 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
       <div class="live-price-nav" aria-label="가격 확인 기종 선택">
         <button class="live-price-arrow live-price-prev" type="button" aria-label="이전 기종">&#8249;</button>
         <div class="live-price-dots">
-          <button class="live-price-dot selected" type="button" data-live-index="0" aria-label="갤럭시 Z 폴드 8 울트라 선택"></button>
-          <button class="live-price-dot" type="button" data-live-index="1" aria-label="갤럭시 Z 폴드 8 선택"></button>
+          <button class="live-price-dot selected" type="button" data-live-index="0" aria-label="갤럭시 Z 폴드 8 선택"></button>
+          <button class="live-price-dot" type="button" data-live-index="1" aria-label="갤럭시 Z 폴드 8 울트라 선택"></button>
           <button class="live-price-dot" type="button" data-live-index="2" aria-label="갤럭시 Z 플립 8 선택"></button>
         </div>
         <button class="live-price-arrow live-price-next" type="button" aria-label="다음 기종">&#8250;</button>
@@ -1062,7 +1062,7 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
         stateText.textContent='가격 준비중';
         return;
       }
-      var keys=['ultra','fold8','flip8'];
+      var keys=['fold8','ultra','flip8'];
       grid.innerHTML=keys.map(function(key){
         var model=state.models[key];
         var meta=modelMeta[key];
