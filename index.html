@@ -1102,7 +1102,7 @@ src="https://www.facebook.com/tr?id=1055742763680174&ev=PageView&noscript=1"
           var linkAttrs=ready?' href="'+(offer.applyUrl||'https://citymarket.co.kr/pb')+'" target="_blank" rel="noopener noreferrer" aria-label="'+model.name+' '+offer.carrier+' '+offer.activationType+' '+money(offer.purchasePrice)+' 상세 견적 보기"':'';
           return '<'+tag+' class="live-offer"'+linkAttrs+'>'+
             '<span class="carrier-logo-text '+carrierClass(offer.carrier)+'">'+carrierMark(offer.carrier)+'</span>'+
-            (ready?'<div class="live-offer-main"><small>'+offer.activationType+'</small><div class="live-offer-price"><span class="live-offer-rate">'+offer.discountRate+'%</span>'+money(offer.purchasePrice)+'</div><span class="live-offer-retail">'+money(offer.retailPrice||model.retailPrice)+'</span></div><span class="live-offer-arrow">›</span>':'<div class="live-offer-main"><small>'+offer.activationType+'</small><span class="live-offer-state">'+(offer.status||'접수 마감')+'</span></div><span></span>')+
+            (ready?'<div class="live-offer-main"><small>'+offer.activationType+'</small><div class="live-offer-price"><span class="live-offer-rate">'+offer.discountRate+'%</span>'+money(offer.purchasePrice)+'</div><span class="live-offer-retail">'+money(offer.retailPrice||model.retailPrice)+'</span></div><span class="live-offer-arrow">›</span>':'<div class="live-offer-main"><small>'+offer.activationType+'</small><span class="live-offer-state">접수 마감</span></div><span></span>')+
           '</'+tag+'>';
         }).join('');
         return '<article class="live-price-card" data-live-model="'+key+'">'+
