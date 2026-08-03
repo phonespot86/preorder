@@ -105,7 +105,7 @@ function normalizeState(list, currentCarrier) {
       if (!deal) return {
         carrier: normalizeCarrier(destination),
         activationType: destination === currentCarrier ? '기기변경' : '번호이동',
-        status: '혜택 준비중'
+        status: '접수 마감'
       };
       const purchasePrice = Number(deal.purchasePrice);
       return {
